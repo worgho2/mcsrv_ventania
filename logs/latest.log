@@ -27,3 +27,6 @@
 [18:11:50] [Server thread/INFO]: Running delayed init tasks
 [18:11:50] [Server thread/INFO]: Done (1.459s)! For help, type "help"
 [18:11:50] [Server thread/INFO]: Timings Reset
+[18:39:43] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[18:39:44] [Server thread/INFO]: medunax joined the game
+[18:39:44] [Server thread/INFO]: medunax[/127.0.0.1:58218] logged in with entity id 99 at ([world]-306.4212146549344, 65.0, -127.5)
