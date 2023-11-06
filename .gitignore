@@ -1,4 +1,6 @@
 _dev
+.env
+github_deploy_key.pem
 
 
 # # Compiled class file

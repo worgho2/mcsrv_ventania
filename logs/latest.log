@@ -42,3 +42,5 @@
 [19:16:02] [Server thread/INFO]: medunax was shot by Skeleton
 [19:25:01] [Server thread/INFO]: medunax has made the advancement [Take Aim]
 [19:26:30] [Server thread/INFO]: medunax was shot by Skeleton
+[20:56:01] [Server thread/INFO]: Villager EntityVillager['Villager'/232, uuid='5eb20a97-4cda-445b-a621-07fd6a400119', l='ServerLevel[world]', x=-344.18, y=62.00, z=-191.70, cpos=[-22, -12], tl=573534, v=true] died, message: 'Villager was slain by Zombie'
+[21:20:59] [Server thread/INFO]: medunax hit the ground too hard
