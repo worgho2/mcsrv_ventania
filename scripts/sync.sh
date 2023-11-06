@@ -32,7 +32,7 @@ fi
 
 # Commit changes
 git add .
-git commit -m "Update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+git commit -m "sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
 # Push changes to github using the deploy key
 git push
