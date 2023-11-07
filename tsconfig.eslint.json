@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "include": ["packages", "stacks", "*.config.ts", "*.d.ts"],
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true
+    }
+}

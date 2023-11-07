@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "root": true,
+    "env": {
+        "es2020": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": ["./tsconfig.eslint.json", "./packages/**/tsconfig*.json"]
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked"
+    ],
+    "ignorePatterns": ["node_modules/", "dist/", "build/", ".sst/", "_dev/", "*.js"],
+    "rules": {
+        "@typescript-eslint/triple-slash-reference": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-empty-interface": "warn"
+    }
+}

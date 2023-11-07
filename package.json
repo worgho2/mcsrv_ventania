@@ -1,0 +1,29 @@
+{
+    "name": "mcsrv-ventania",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": "18"
+    },
+    "scripts": {
+        "dev": "AWS_PROFILE=mcsrv-dev sst dev",
+        "build": "sst build",
+        "deploy": "sst deploy",
+        "remove": "AWS_PROFILE=mcsrv-dev sst remove",
+        "console": "sst console",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@tsconfig/node18": "^18.2.2",
+        "@types/aws-lambda": "^8.10.126",
+        "aws-cdk-lib": "2.101.1",
+        "constructs": "10.2.69",
+        "prettier": "^3.0.3",
+        "sst": "^2.35.0",
+        "typescript": "^5.2.2"
+    },
+    "workspaces": [
+        "packages/bot"
+    ]
+}
