@@ -42,3 +42,31 @@
 [03:25:43] [Server thread/INFO]: medunax[/127.0.0.1:45544] logged in with entity id 7086 at ([world]-359.97627373182604, 64.0, -161.9013738620626)
 [03:27:21] [Server thread/INFO]: Villager EntityVillager['Fletcher'/7384, uuid='a8952e42-e631-4c0a-a779-ac20cee869b3', l='ServerLevel[world]', x=-280.48, y=64.94, z=-113.40, cpos=[-18, -8], tl=1148452, v=true] died, message: 'Fletcher was slain by Zombie'
 [04:09:40] [Server thread/INFO]: medunax fell from a high place
+[04:30:44] [Server thread/INFO]: medunax was slain by Zombie
+[04:32:10] [Server thread/INFO]: medunax fell from a high place
+[04:44:49] [Server thread/WARN]: medunax was kicked due to keepalive timeout!
+[04:44:49] [Server thread/INFO]: medunax lost connection: Timed out
+[04:44:49] [Server thread/INFO]: medunax left the game
+[04:45:19] [User Authenticator #4/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[04:45:19] [Server thread/INFO]: medunax joined the game
+[04:45:19] [Server thread/INFO]: medunax[/127.0.0.1:33400] logged in with entity id 19274 at ([world]-183.64805333161505, 9.0, -256.700199491208)
+[04:45:28] [Server thread/INFO]: medunax lost connection: Disconnected
+[04:45:28] [Server thread/INFO]: medunax left the game
+[04:45:32] [User Authenticator #4/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[04:45:32] [Server thread/INFO]: medunax joined the game
+[04:45:32] [Server thread/INFO]: medunax[/127.0.0.1:40320] logged in with entity id 19676 at ([world]-173.70413074576803, 17.0, -261.44037578362565)
+[04:55:58] [Server thread/INFO]: medunax lost connection: Disconnected
+[04:55:58] [Server thread/INFO]: medunax left the game
+[11:23:46] [Server thread/INFO]: Stopping server
+[11:23:46] [Server thread/INFO]: Saving players
+[11:23:46] [Server thread/INFO]: Saving worlds
+[11:23:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:23:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:23:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:23:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:23:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:23:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:23:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:23:47] [Server thread/INFO]: Flushing Chunk IO
+[11:23:47] [Server thread/INFO]: Closing Thread Pool
+[11:23:47] [Server thread/INFO]: Closing Server
