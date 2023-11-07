@@ -7,4 +7,5 @@ SERVER_MEMORY=${SERVER_MEMORY:-2048M}
 
 echo "Starting server with $SERVER_MEMORY of memory at ($SERVER_EXECUTABLE)"
 
+cd $ROOT_DIR
 java -Xmx${SERVER_MEMORY} -Xms${SERVER_MEMORY} -jar $SERVER_EXECUTABLE nogui

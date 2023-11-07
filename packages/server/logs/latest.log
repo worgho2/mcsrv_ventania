@@ -41,3 +41,4 @@
 [03:25:43] [Server thread/INFO]: medunax joined the game
 [03:25:43] [Server thread/INFO]: medunax[/127.0.0.1:45544] logged in with entity id 7086 at ([world]-359.97627373182604, 64.0, -161.9013738620626)
 [03:27:21] [Server thread/INFO]: Villager EntityVillager['Fletcher'/7384, uuid='a8952e42-e631-4c0a-a779-ac20cee869b3', l='ServerLevel[world]', x=-280.48, y=64.94, z=-113.40, cpos=[-18, -8], tl=1148452, v=true] died, message: 'Fletcher was slain by Zombie'
+[04:09:40] [Server thread/INFO]: medunax fell from a high place

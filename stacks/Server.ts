@@ -56,6 +56,7 @@ export const Server = ({ stack }: sst.StackContext) => {
             `git clone ${REPOSITORY_SSH_ADDRESS} repo`,
             'sudo echo "[Unit]" > /lib/systemd/system/server.service',
             'sudo echo -e "Description=Server\n" >> /lib/systemd/system/server.service',
+            'sudo echo "[Service]" > /lib/systemd/system/server.service',
             'sudo echo -e "ExecStart=SERVER_MEMORY=1024M ~/repo/packages/server/scripts/start.sh\n" >> /lib/systemd/system/server.service',
             'sudo echo "[Install]" >> /lib/systemd/system/server.service',
             'sudo echo -e "WantedBy=multi-user.target" >> /lib/systemd/system/server.service',
