@@ -9,7 +9,7 @@
     "scripts": {
         "dev": "AWS_PROFILE=mcsrv-dev sst dev",
         "build": "sst build",
-        "deploy": "sst deploy",
+        "deploy": "AWS_PROFILE=mcsrv-dev sst deploy",
         "remove": "AWS_PROFILE=mcsrv-dev sst remove",
         "console": "sst console",
         "typecheck": "tsc --noEmit"
