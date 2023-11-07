@@ -11,7 +11,7 @@ node_modules
 # misc
 .DS_Store
 _dev
+cdk.context.json
 
 # local env files
 .env*.local
-

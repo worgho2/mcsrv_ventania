@@ -8,5 +8,6 @@ namespace NodeJS {
         AWS_EC2_INSTANCE_PORT: string;
         DISCORD_BOT_TOKEN: string;
         DISCORD_BOT_CLIENT_ID: string;
+        DISCORD_BOT_PUBLIC_KEY: string;
     }
 }

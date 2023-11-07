@@ -47,7 +47,7 @@ export const Server = ({ stack }: sst.StackContext) => {
         instanceType: InstanceType.of(InstanceClass.T3, InstanceSize.SMALL),
         machineImage: new AmazonLinuxImage({
             edition: AmazonLinuxEdition.STANDARD,
-            generation: AmazonLinuxGeneration.AMAZON_LINUX_2023,
+            generation: AmazonLinuxGeneration.AMAZON_LINUX_2,
             cpuType: AmazonLinuxCpuType.X86_64,
             virtualization: AmazonLinuxVirt.HVM,
             kernel: AmazonLinuxKernel.KERNEL5_X,
