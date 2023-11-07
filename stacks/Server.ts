@@ -53,7 +53,14 @@ export const Server = ({ stack }: sst.StackContext) => {
             'echo -e "\tStrictHostKeyChecking no" >> ~/.ssh/config',
             `echo -e "${REPOSITORY_DEPLOY_KEY}" > ~/.ssh/deploy_key.pem`,
             'sudo chmod 600 ~/.ssh/deploy_key.pem',
-            `git clone ${REPOSITORY_SSH_ADDRESS}`,
+            `git clone ${REPOSITORY_SSH_ADDRESS} repo`,
+            'sudo echo "[Unit]" > /lib/systemd/system/server.service',
+            'sudo echo -e "Description=Server\n" >> /lib/systemd/system/server.service',
+            'sudo echo -e "ExecStart=SERVER_MEMORY=1024M ~/repo/packages/server/scripts/start.sh\n" >> /lib/systemd/system/server.service',
+            'sudo echo "[Install]" >> /lib/systemd/system/server.service',
+            'sudo echo -e "WantedBy=multi-user.target" >> /lib/systemd/system/server.service',
+            'systemctl enable server.service --now',
+            // TODO: Add cron job to backup the server periodically
         ],
     );
 
