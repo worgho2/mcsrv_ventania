@@ -30,3 +30,14 @@
 [02:45:07] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
 [02:45:07] [Server thread/INFO]: medunax joined the game
 [02:45:07] [Server thread/INFO]: medunax[/127.0.0.1:43536] logged in with entity id 174 at ([world]-319.84015548610233, 64.0, -138.36021386745088)
+[03:18:45] [Server thread/INFO]: medunax lost connection: Disconnected
+[03:18:45] [Server thread/INFO]: medunax left the game
+[03:19:40] [User Authenticator #2/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[03:19:40] [Server thread/INFO]: medunax joined the game
+[03:19:40] [Server thread/INFO]: medunax[/127.0.0.1:44054] logged in with entity id 6065 at ([world]-329.81725859276247, 64.0, -148.67324495903938)
+[03:23:54] [Server thread/INFO]: medunax lost connection: Disconnected
+[03:23:54] [Server thread/INFO]: medunax left the game
+[03:25:43] [User Authenticator #3/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[03:25:43] [Server thread/INFO]: medunax joined the game
+[03:25:43] [Server thread/INFO]: medunax[/127.0.0.1:45544] logged in with entity id 7086 at ([world]-359.97627373182604, 64.0, -161.9013738620626)
+[03:27:21] [Server thread/INFO]: Villager EntityVillager['Fletcher'/7384, uuid='a8952e42-e631-4c0a-a779-ac20cee869b3', l='ServerLevel[world]', x=-280.48, y=64.94, z=-113.40, cpos=[-18, -8], tl=1148452, v=true] died, message: 'Fletcher was slain by Zombie'

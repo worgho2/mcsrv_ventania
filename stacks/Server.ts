@@ -20,7 +20,8 @@ import {
 import { Role, ServicePrincipal } from 'aws-cdk-lib/aws-iam';
 
 export const Server = ({ stack }: sst.StackContext) => {
-    const { SERVER_PORT, SERVER_SSH_KEY_NAME } = sst.use(Config);
+    const { SERVER_PORT, SERVER_SSH_KEY_NAME, REPOSITORY_DEPLOY_KEY, REPOSITORY_SSH_ADDRESS } =
+        sst.use(Config);
 
     const vpc = Vpc.fromLookup(stack, `ServerVpc`, { isDefault: true });
 
@@ -40,7 +41,21 @@ export const Server = ({ stack }: sst.StackContext) => {
     });
 
     const userData = UserData.forLinux();
-    userData.addCommands(...['']);
+    userData.addCommands(
+        ...[
+            'sudo yum install -y java-17-amazon-corretto',
+            'sudo yum install -y git',
+            'touch ~/.ssh/config',
+            'sudo chmod 600 ~/.ssh/config',
+            'echo "Host github.com" > ~/.ssh/config',
+            'echo -e "\tHostname github.com" >> ~/.ssh/config',
+            'echo -e "\tIdentityFile ~/.ssh/deploy_key.pem" >> ~/.ssh/config',
+            'echo -e "\tStrictHostKeyChecking no" >> ~/.ssh/config',
+            `echo -e "${REPOSITORY_DEPLOY_KEY}" > ~/.ssh/deploy_key.pem`,
+            'sudo chmod 600 ~/.ssh/deploy_key.pem',
+            `git clone ${REPOSITORY_SSH_ADDRESS}`,
+        ],
+    );
 
     const instance = new Instance(stack, 'ServerInstance', {
         vpc,
