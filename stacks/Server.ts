@@ -50,14 +50,17 @@ export const Server = ({ stack }: sst.StackContext) => {
              * Setup Repository
              */
             'touch /home/ec2-user/.ssh/config',
-            'sudo chmod 600 /home/ec2-user/.ssh/config',
             'echo "Host github.com" > /home/ec2-user/.ssh/config',
             'echo -e "\tHostname github.com" >> /home/ec2-user/.ssh/config',
             'echo -e "\tIdentityFile /home/ec2-user/.ssh/deploy_key.pem" >> /home/ec2-user/.ssh/config',
             'echo -e "\tStrictHostKeyChecking no" >> /home/ec2-user/.ssh/config',
             `echo -e "${REPOSITORY_DEPLOY_KEY}" > /home/ec2-user/.ssh/deploy_key.pem`,
-            'sudo chmod 600 /home/ec2-user/.ssh/deploy_key.pem',
+            'chmod 600 /home/ec2-user/.ssh/config',
+            'chmod 600 /home/ec2-user/.ssh/deploy_key.pem',
+            'sudo chown ec2-user:ec2-user /home/ec2-user/.ssh/config',
+            'sudo chown ec2-user:ec2-user /home/ec2-user/.ssh/deploy_key.pem',
             `git clone ${REPOSITORY_SSH_ADDRESS} /home/ec2-user/repo`,
+            'sudo chown -R ec2-user:ec2-user /home/ec2-user/repo',
 
             /**
              * Setup startup service
