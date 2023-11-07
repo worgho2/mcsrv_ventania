@@ -43,6 +43,9 @@ export const Server = ({ stack }: sst.StackContext) => {
     const userData = UserData.forLinux();
     userData.addCommands(
         ...[
+            /**
+             * Install dependencies
+             */
             'sudo yum install -y java-17-amazon-corretto',
             'sudo yum install -y git',
 
@@ -78,7 +81,11 @@ export const Server = ({ stack }: sst.StackContext) => {
             'echo -e "[Install]" >> /etc/systemd/system/mcsrv.service',
             'echo -e "WantedBy=multi-user.target" >> /etc/systemd/system/mcsrv.service',
             'sudo systemctl enable mcsrv --now',
-            // TODO: Add cron job to backup the server periodically
+
+            /**
+             * Setup sync service cron job
+             */
+            'echo "*/5 * * * * ec2-user /home/ec2-user/repo/packages/server/scripts/sync.sh" >> /var/spool/cron/ec2-user',
         ],
     );
 
