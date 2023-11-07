@@ -70,7 +70,7 @@ export const Server = ({ stack }: sst.StackContext) => {
             'echo -e "Restart=always" >> /etc/systemd/system/mcsrv.service',
             'echo -e "RestartSec=3" >> /etc/systemd/system/mcsrv.service',
             'echo -e "User=ec2-user" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "Environment="SERVER_MEMORY=1024M"" >> /etc/systemd/system/mcsrv.service',
+            `echo -e 'Environment="SERVER_MEMORY=1024M"' >> /etc/systemd/system/mcsrv.service`,
             'echo -e "ExecStart=/home/ec2-user/repo/packages/server/scripts/start.sh\n" >> /etc/systemd/system/mcsrv.service',
             'echo -e "[Install]" >> /etc/systemd/system/mcsrv.service',
             'echo -e "WantedBy=multi-user.target" >> /etc/systemd/system/mcsrv.service',
