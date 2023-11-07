@@ -85,7 +85,7 @@ export const Server = ({ stack }: sst.StackContext) => {
             /**
              * Setup sync service cron job
              */
-            'echo "*/5 * * * * ec2-user /home/ec2-user/repo/packages/server/scripts/sync.sh" >> /var/spool/cron/ec2-user',
+            'echo "*/5 * * * * ec2-user /home/ec2-user/repo/packages/server/scripts/sync.sh" | sudo tee -a /etc/cron.d/sync-server',
         ],
     );
 
