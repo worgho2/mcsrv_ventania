@@ -45,22 +45,36 @@ export const Server = ({ stack }: sst.StackContext) => {
         ...[
             'sudo yum install -y java-17-amazon-corretto',
             'sudo yum install -y git',
-            'touch ~/.ssh/config',
-            'sudo chmod 600 ~/.ssh/config',
-            'echo "Host github.com" > ~/.ssh/config',
-            'echo -e "\tHostname github.com" >> ~/.ssh/config',
-            'echo -e "\tIdentityFile ~/.ssh/deploy_key.pem" >> ~/.ssh/config',
-            'echo -e "\tStrictHostKeyChecking no" >> ~/.ssh/config',
-            `echo -e "${REPOSITORY_DEPLOY_KEY}" > ~/.ssh/deploy_key.pem`,
-            'sudo chmod 600 ~/.ssh/deploy_key.pem',
-            `git clone ${REPOSITORY_SSH_ADDRESS} repo`,
-            'sudo echo "[Unit]" > /lib/systemd/system/server.service',
-            'sudo echo -e "Description=Server\n" >> /lib/systemd/system/server.service',
-            'sudo echo "[Service]" > /lib/systemd/system/server.service',
-            'sudo echo -e "ExecStart=SERVER_MEMORY=1024M ~/repo/packages/server/scripts/start.sh\n" >> /lib/systemd/system/server.service',
-            'sudo echo "[Install]" >> /lib/systemd/system/server.service',
-            'sudo echo -e "WantedBy=multi-user.target" >> /lib/systemd/system/server.service',
-            'systemctl enable server.service --now',
+
+            /**
+             * Setup Repository
+             */
+            'touch /home/ec2-user/.ssh/config',
+            'sudo chmod 600 /home/ec2-user/.ssh/config',
+            'echo "Host github.com" > /home/ec2-user/.ssh/config',
+            'echo -e "\tHostname github.com" >> /home/ec2-user/.ssh/config',
+            'echo -e "\tIdentityFile /home/ec2-user/.ssh/deploy_key.pem" >> /home/ec2-user/.ssh/config',
+            'echo -e "\tStrictHostKeyChecking no" >> /home/ec2-user/.ssh/config',
+            `echo -e "${REPOSITORY_DEPLOY_KEY}" > /home/ec2-user/.ssh/deploy_key.pem`,
+            'sudo chmod 600 /home/ec2-user/.ssh/deploy_key.pem',
+            `git clone ${REPOSITORY_SSH_ADDRESS} /home/ec2-user/repo`,
+
+            /**
+             * Setup startup service
+             */
+            'echo -e "[Unit]" > /etc/systemd/system/mcsrv.service',
+            'echo -e "Description=Server service" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "After=network.target\n" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "[Service]" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "Type=simple" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "Restart=always" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "RestartSec=3" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "User=ec2-user" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "Environment="SERVER_MEMORY=1024M"" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "ExecStart=/home/ec2-user/repo/packages/server/scripts/start.sh\n" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "[Install]" >> /etc/systemd/system/mcsrv.service',
+            'echo -e "WantedBy=multi-user.target" >> /etc/systemd/system/mcsrv.service',
+            'sudo systemctl enable mcsrv --now',
             // TODO: Add cron job to backup the server periodically
         ],
     );
