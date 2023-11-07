@@ -1981,6 +1981,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-11-07 20:42:11 +0000",
       "cooked_beef": "2023-11-04 06:58:54 +0000",
       "beef": "2023-11-04 01:16:03 +0000",
       "apple": "2023-11-07 07:38:59 +0000",
