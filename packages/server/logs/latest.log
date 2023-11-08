@@ -59,3 +59,7 @@
 [02:00:53] [Server thread/INFO]: worgho2 joined the game
 [02:00:53] [Server thread/INFO]: worgho2[/191.177.137.13:3121] logged in with entity id 665 at ([world_nether]132.95592574824374, 39.0, -109.19465573746022)
 [02:02:33] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/1309, uuid='a27dc6cd-4802-40b5-a959-1684f9f9a4f7', l='ServerLevel[world]', x=-357.92, y=67.00, z=16.90, cpos=[-23, 1], tl=851116, v=false]
+[02:09:53] [User Authenticator #3/INFO]: UUID of player Satanaejj2 is e18f63b2-dfe0-3752-9cb1-4ddb6ed6dc17
+[02:09:53] [Server thread/INFO]: Satanaejj2 joined the game
+[02:09:53] [Server thread/INFO]: Satanaejj2[/179.211.6.134:50558] logged in with entity id 3837 at ([world_nether]-248.3107880054605, 57.0, 108.8051300807806)
+[02:09:56] [Server thread/WARN]: UUID of added entity already exists: EntityHoglin['Hoglin'/3946, uuid='e91e7b85-48bd-4bec-9fcc-4a8044757944', l='ServerLevel[world_nether]', x=-119.75, y=53.00, z=290.00, cpos=[-8, 18], tl=473, v=false]
