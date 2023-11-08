@@ -524,6 +524,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2023-11-04 01:28:02 +0000",
+      "minecraft:hoglin": "2023-11-08 02:20:43 +0000",
       "minecraft:spider": "2023-11-04 01:07:38 +0000",
       "minecraft:piglin_brute": "2023-11-08 01:46:06 +0000",
       "minecraft:creeper": "2023-11-04 01:08:24 +0000",
