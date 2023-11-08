@@ -20,8 +20,7 @@ import {
 import { Role, ServicePrincipal } from 'aws-cdk-lib/aws-iam';
 
 export const Server = ({ stack }: sst.StackContext) => {
-    const { SERVER_PORT, SERVER_SSH_KEY_NAME, REPOSITORY_DEPLOY_KEY, REPOSITORY_SSH_ADDRESS } =
-        sst.use(Config);
+    const { SERVER_SSH_KEY_NAME, GITHUB_URL, GITHUB_PAT_URL } = sst.use(Config);
 
     const vpc = Vpc.fromLookup(stack, `ServerVpc`, { isDefault: true });
 
@@ -31,8 +30,8 @@ export const Server = ({ stack }: sst.StackContext) => {
         allowAllOutbound: true,
     });
 
-    securityGroup.addIngressRule(Peer.anyIpv4(), Port.tcp(SERVER_PORT), 'Main server port IPV4');
-    securityGroup.addIngressRule(Peer.anyIpv6(), Port.tcp(SERVER_PORT), 'Main server port IPV6');
+    securityGroup.addIngressRule(Peer.anyIpv4(), Port.tcp(25565), 'MCSRV server port IPV4');
+    securityGroup.addIngressRule(Peer.anyIpv6(), Port.tcp(25565), 'MCSRV server port IPV6');
     securityGroup.addIngressRule(Peer.anyIpv4(), Port.tcp(22), 'SSH port IPV4');
     securityGroup.addIngressRule(Peer.anyIpv6(), Port.tcp(22), 'SSH port IPV6');
 
@@ -40,52 +39,63 @@ export const Server = ({ stack }: sst.StackContext) => {
         assumedBy: new ServicePrincipal('ec2.amazonaws.com'),
     });
 
+    const repositoryPath = '/home/ec2-user/repo';
+
     const userData = UserData.forLinux();
+
+    /**
+     * Install dependencies
+     */
     userData.addCommands(
         ...[
-            /**
-             * Install dependencies
-             */
+            'sudo yum update -y',
             'sudo yum install -y java-17-amazon-corretto',
             'sudo yum install -y git',
+        ],
+    );
 
-            /**
-             * Setup Repository
-             */
-            'touch /home/ec2-user/.ssh/config',
-            'echo "Host github.com" > /home/ec2-user/.ssh/config',
-            'echo -e "\tHostname github.com" >> /home/ec2-user/.ssh/config',
-            'echo -e "\tIdentityFile /home/ec2-user/.ssh/deploy_key.pem" >> /home/ec2-user/.ssh/config',
-            'echo -e "\tStrictHostKeyChecking no" >> /home/ec2-user/.ssh/config',
-            `echo -e "${REPOSITORY_DEPLOY_KEY}" > /home/ec2-user/.ssh/deploy_key.pem`,
-            'chmod 600 /home/ec2-user/.ssh/config',
-            'chmod 600 /home/ec2-user/.ssh/deploy_key.pem',
-            'sudo chown ec2-user:ec2-user /home/ec2-user/.ssh/config',
-            'sudo chown ec2-user:ec2-user /home/ec2-user/.ssh/deploy_key.pem',
-            `git clone ${REPOSITORY_SSH_ADDRESS} /home/ec2-user/repo`,
-            'sudo chown -R ec2-user:ec2-user /home/ec2-user/repo',
+    /**
+     * Setup repository
+     */
+    userData.addCommands(
+        ...[
+            `git config --global url."${GITHUB_PAT_URL}".insteadOf ${GITHUB_URL}`,
+            `git clone ${GITHUB_URL} ${repositoryPath}`,
+            `chown -R ec2-user:ec2-user ${repositoryPath}`,
+        ],
+    );
 
-            /**
-             * Setup startup service
-             */
-            'echo -e "[Unit]" > /etc/systemd/system/mcsrv.service',
-            'echo -e "Description=Server service" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "After=network.target\n" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "[Service]" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "Type=simple" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "Restart=always" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "RestartSec=3" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "User=ec2-user" >> /etc/systemd/system/mcsrv.service',
-            `echo -e 'Environment="SERVER_MEMORY=1024M"' >> /etc/systemd/system/mcsrv.service`,
-            'echo -e "ExecStart=/home/ec2-user/repo/packages/server/scripts/start.sh\n" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "[Install]" >> /etc/systemd/system/mcsrv.service',
-            'echo -e "WantedBy=multi-user.target" >> /etc/systemd/system/mcsrv.service',
+    /**
+     * Setup mcsrv systemd service
+     */
+    userData.addCommands(
+        ...[
+            'cat << EOF > /etc/systemd/system/mcsrv.service',
+            '[Unit]',
+            'Description=MCSRV Service',
+            'After=network.target',
+            '',
+            '[Service]',
+            'Type=simple',
+            'Restart=always',
+            'RestartSec=3',
+            'User=ec2-user',
+            `ExecStart=${repositoryPath}/packages/scripts/start-server.sh`,
+            '',
+            '[Install]',
+            'WantedBy=multi-user.target',
+            'EOF',
             'sudo systemctl enable mcsrv --now',
+        ],
+    );
 
-            /**
-             * Setup sync service cron job
-             */
-            'echo "*/5 * * * * ec2-user /home/ec2-user/repo/packages/server/scripts/sync.sh" | sudo tee -a /etc/cron.d/sync-server',
+    /**
+     * Setup cron jobs
+     */
+    userData.addCommands(
+        ...[
+            `echo "@reboot ec2-user ${repositoryPath}/packages/scripts/on-reboot.sh" | sudo tee -a /etc/cron.d/mcsrv-on-reboot`,
+            `echo "*/10 * * * * ec2-user ${repositoryPath}/packages/scripts/sync-server-data.sh" | sudo tee -a /etc/cron.d/mcsrv-sync-server-data`,
         ],
     );
 

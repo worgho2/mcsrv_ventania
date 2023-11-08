@@ -14,7 +14,6 @@ export class Ec2ServerManager implements ServerManager {
     constructor(
         AWS_REGION: string,
         private readonly AWS_EC2_INSTANCE_ID: string,
-        private readonly AWS_EC2_INSTANCE_PORT: string,
     ) {
         this.ec2Client = new EC2Client({ region: AWS_REGION });
     }
@@ -100,7 +99,7 @@ export class Ec2ServerManager implements ServerManager {
         );
 
         return {
-            port: this.AWS_EC2_INSTANCE_PORT,
+            port: `25565`,
             host: Reservations?.[0]?.Instances?.[0]?.PublicIpAddress,
             state: currentState,
         };

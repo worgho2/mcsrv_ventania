@@ -14,11 +14,10 @@ import { Ec2ServerManager } from 'src/infrastructure/ec2-server-manager';
 import { LambdaHandlerAdapter } from 'src/infrastructure/lambda-handler-adapter';
 import nacl from 'tweetnacl';
 
-const { AWS_REGION, AWS_EC2_INSTANCE_ID, AWS_EC2_INSTANCE_PORT, DISCORD_BOT_PUBLIC_KEY } =
-    process.env;
+const { AWS_REGION, AWS_EC2_INSTANCE_ID, DISCORD_BOT_PUBLIC_KEY } = process.env;
 
 const logger = new Logger();
-const serverManager = new Ec2ServerManager(AWS_REGION, AWS_EC2_INSTANCE_ID, AWS_EC2_INSTANCE_PORT);
+const serverManager = new Ec2ServerManager(AWS_REGION, AWS_EC2_INSTANCE_ID);
 const getServerConnection = new GetServerConnection(serverManager);
 const startServer = new StartServer(logger, serverManager);
 const stopServer = new StopServer(logger, serverManager);
