@@ -55,3 +55,7 @@
 [01:58:49] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/363, uuid='a42478d8-13a1-42b8-ae74-4fa34848d5be', l='ServerLevel[world_nether]', x=197.84, y=31.50, z=-45.87, cpos=[12, -3], tl=48443, v=false]
 [01:58:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
 [01:58:54] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/421, uuid='c08aee85-8db2-41b7-b812-b0c5f51b61c1', l='ServerLevel[world_nether]', x=326.45, y=31.50, z=-288.02, cpos=[20, -19], tl=59, v=false]
+[02:00:53] [User Authenticator #2/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[02:00:53] [Server thread/INFO]: worgho2 joined the game
+[02:00:53] [Server thread/INFO]: worgho2[/191.177.137.13:3121] logged in with entity id 665 at ([world_nether]132.95592574824374, 39.0, -109.19465573746022)
+[02:02:33] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/1309, uuid='a27dc6cd-4802-40b5-a959-1684f9f9a4f7', l='ServerLevel[world]', x=-357.92, y=67.00, z=16.90, cpos=[-23, 1], tl=851116, v=false]
