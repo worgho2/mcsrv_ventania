@@ -33,3 +33,7 @@
 [01:05:11] [Server thread/INFO]: worgho2 has made the advancement [Ice Bucket Challenge]
 [01:09:19] [Server thread/INFO]: worgho2 has made the advancement [We Need to Go Deeper]
 [01:09:20] [Server thread/INFO]: Satanaejj2 has made the advancement [A Terrible Fortress]
+[01:13:28] [Server thread/INFO]: Satanaejj2 has made the advancement [Diamonds!]
+[01:13:43] [Server thread/INFO]: Satanaejj2 has made the advancement [Into Fire]
+[01:14:47] [Netty Epoll Server IO #0/WARN]: Staadler sent expired chat: '-320 -130'. Is the client/server system time unsynchronized? c: 1699405736 s: 1699406087
+[01:14:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Staadler> -320 -130
