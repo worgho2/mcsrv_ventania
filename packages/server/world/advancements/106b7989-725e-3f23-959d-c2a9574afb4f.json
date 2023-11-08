@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-11-08 01:24:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2023-11-08 00:14:53 +0000"
@@ -278,6 +284,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-11-08 00:31:15 +0000",
+      "chicken": "2023-11-08 01:16:15 +0000",
       "cooked_beef": "2023-11-08 00:21:17 +0000",
       "apple": "2023-11-08 00:19:14 +0000"
     },
@@ -645,9 +652,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2023-11-08 01:13:45 +0000",
       "minecraft:beach": "2023-11-08 00:52:38 +0000",
       "minecraft:river": "2023-11-08 01:04:53 +0000",
+      "minecraft:snowy_plains": "2023-11-08 01:13:09 +0000",
       "minecraft:cold_ocean": "2023-11-08 00:54:32 +0000",
+      "minecraft:forest": "2023-11-08 01:15:56 +0000",
+      "minecraft:meadow": "2023-11-08 01:16:02 +0000",
       "minecraft:plains": "2023-11-08 00:12:32 +0000"
     },
     "done": false
@@ -920,6 +931,7 @@
     "criteria": {
       "minecraft:skeleton": "2023-11-08 00:19:46 +0000",
       "minecraft:spider": "2023-11-08 00:27:29 +0000",
+      "minecraft:enderman": "2023-11-08 01:18:27 +0000",
       "minecraft:zombie": "2023-11-08 00:19:39 +0000",
       "minecraft:zombie_villager": "2023-11-08 00:42:46 +0000"
     },

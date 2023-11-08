@@ -272,6 +272,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-11-08 00:34:40 +0000",
+      "cooked_mutton": "2023-11-08 01:14:28 +0000",
       "cooked_beef": "2023-11-08 00:24:42 +0000",
       "apple": "2023-11-08 01:12:43 +0000",
       "potato": "2023-11-08 01:10:57 +0000",
@@ -282,6 +283,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2023-11-08 00:21:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-11-08 01:22:29 +0000"
     },
     "done": true
   },
@@ -387,6 +394,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-11-08 01:25:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-11-08 00:52:37 +0000"
@@ -474,6 +487,12 @@
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2023-11-07 17:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-11-08 01:22:29 +0000"
     },
     "done": true
   },
@@ -643,6 +662,7 @@
     "criteria": {
       "minecraft:blaze": "2023-11-08 01:11:11 +0000",
       "minecraft:skeleton": "2023-11-08 00:41:23 +0000",
+      "minecraft:wither_skeleton": "2023-11-08 01:21:08 +0000",
       "minecraft:zombie": "2023-11-08 00:45:31 +0000"
     },
     "done": false
@@ -833,6 +853,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-11-08 01:13:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2023-11-08 00:25:39 +0000"
@@ -917,6 +943,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-11-08 01:15:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2023-11-08 00:26:36 +0000"
@@ -932,6 +964,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2023-11-08 00:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-11-08 01:21:18 +0000"
     },
     "done": true
   },
@@ -1025,9 +1063,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-11-08 01:21:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-11-08 00:52:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-11-08 01:25:59 +0000"
     },
     "done": true
   },
@@ -1097,6 +1147,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-11-08 01:13:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-11-08 00:52:37 +0000"
@@ -1136,6 +1192,12 @@
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2023-11-08 00:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-11-08 01:13:43 +0000"
     },
     "done": true
   },
@@ -1372,6 +1434,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2023-11-08 00:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2023-11-08 01:22:54 +0000"
     },
     "done": true
   },
