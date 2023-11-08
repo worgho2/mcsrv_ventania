@@ -1,56 +1,57 @@
-[00:09:16] [User Authenticator #1/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
-[00:09:17] [Server thread/INFO]: worgho2 joined the game
-[00:09:17] [Server thread/INFO]: worgho2[/191.177.137.13:3171] logged in with entity id 201 at ([world]-332.69999998807907, 11.0, -119.16115600977975)
-[00:12:32] [User Authenticator #2/INFO]: UUID of player Staadler is 106b7989-725e-3f23-959d-c2a9574afb4f
-[00:12:32] [Server thread/INFO]: Staadler joined the game
-[00:12:32] [Server thread/INFO]: Staadler[/179.130.40.14:59024] logged in with entity id 960 at ([world]-171.5, 72.0, 168.5)
-[00:16:12] [Server thread/INFO]: Staadler has made the advancement [Stone Age]
-[00:17:15] [Server thread/INFO]: Staadler has made the advancement [Getting an Upgrade]
-[00:18:29] [User Authenticator #3/INFO]: UUID of player Satanaejj2 is e18f63b2-dfe0-3752-9cb1-4ddb6ed6dc17
-[00:18:29] [Server thread/INFO]: Satanaejj2 joined the game
-[00:18:29] [Server thread/INFO]: Satanaejj2[/179.211.6.134:64214] logged in with entity id 2943 at ([world]-287.7748703157648, 89.0, 247.32935056477515)
-[00:19:39] [Server thread/INFO]: Staadler has made the advancement [Monster Hunter]
-[00:22:57] [Server thread/INFO]: Satanaejj2 has made the advancement [Stone Age]
-[00:23:35] [Server thread/INFO]: Satanaejj2 has made the advancement [Getting an Upgrade]
-[00:26:25] [Server thread/INFO]: Villager EntityVillager['Villager'/6261, uuid='aabe42a8-f46e-4019-89db-c183cd3d7f4b', l='ServerLevel[world]', x=-696.63, y=67.56, z=360.72, cpos=[-44, 22], tl=191, v=true] died, message: 'Villager suffocated in a wall'
-[00:27:20] [Server thread/INFO]: Satanaejj2 has made the advancement [Acquire Hardware]
-[00:27:21] [Server thread/INFO]: Satanaejj2 has made the advancement [Suit Up]
-[00:28:10] [User Authenticator #4/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[00:28:10] [Server thread/INFO]: medunax joined the game
-[00:28:10] [Server thread/INFO]: medunax[/177.202.112.85:60202] logged in with entity id 7764 at ([world]-499.52656034588887, 8.0, -248.30000001192093)
-[00:29:03] [Server thread/INFO]: Staadler has made the advancement [Acquire Hardware]
-[00:31:59] [Server thread/INFO]: Staadler has made the advancement [Isn't It Iron Pick]
-[00:32:10] [Server thread/INFO]: Staadler has made the advancement [Suit Up]
-[00:32:31] [Server thread/INFO]: Satanaejj2 has made the advancement [Ice Bucket Challenge]
-[00:39:51] [Server thread/INFO]: medunax has made the advancement [Cover Me with Diamonds]
-[00:41:23] [Server thread/INFO]: Satanaejj2 has made the advancement [Monster Hunter]
-[00:41:24] [Server thread/INFO]: worgho2 was shot by Skeleton
-[00:43:43] [Server thread/INFO]: Staadler has made the advancement [Not Today, Thank You]
-[00:45:10] [Server thread/INFO]: worgho2 has made the advancement [A Seedy Place]
-[00:45:15] [Server thread/INFO]: Staadler has made the advancement [Diamonds!]
-[00:47:09] [Server thread/INFO]: Satanaejj2 has made the advancement [Hot Stuff]
-[00:54:35] [Server thread/INFO]: Satanaejj2 has made the advancement [We Need to Go Deeper]
-[01:05:11] [Server thread/INFO]: worgho2 has made the advancement [Ice Bucket Challenge]
-[01:09:19] [Server thread/INFO]: worgho2 has made the advancement [We Need to Go Deeper]
-[01:09:20] [Server thread/INFO]: Satanaejj2 has made the advancement [A Terrible Fortress]
-[01:13:28] [Server thread/INFO]: Satanaejj2 has made the advancement [Diamonds!]
-[01:13:43] [Server thread/INFO]: Satanaejj2 has made the advancement [Into Fire]
-[01:14:47] [Netty Epoll Server IO #0/WARN]: Staadler sent expired chat: '-320 -130'. Is the client/server system time unsynchronized? c: 1699405736 s: 1699406087
-[01:14:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Staadler> -320 -130
-[01:15:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Satanaejj2> -140 122
-[01:21:18] [Server thread/INFO]: Satanaejj2 has made the advancement [Not Today, Thank You]
-[01:25:59] [Server thread/INFO]: Satanaejj2 has made the advancement [Spooky Scary Skeleton]
-[01:28:35] [Server thread/INFO]: Staadler has made the advancement [Sweet Dreams]
-[01:32:21] [Server thread/INFO]: Staadler has made the advancement [Enchanter]
-[01:34:56] [Server thread/INFO]: Staadler has made the advancement [What a Deal!]
-[01:36:07] [Server thread/INFO]: Staadler has made the advancement [We Need to Go Deeper]
-[01:36:37] [Server thread/INFO]: Staadler has made the advancement [Take Aim]
-[01:36:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Satanaejj2> -250 130
-[01:40:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Satanaejj2> -250 130
-[01:40:07] [Async Chat Thread - #5/INFO]: [Not Secure] <Satanaejj2> -250 130
-[01:43:59] [Server thread/INFO]: Staadler has made the advancement [A Terrible Fortress]
-[01:46:17] [Server thread/INFO]: worgho2 has made the advancement [Those Were the Days]
-[01:47:38] [Server thread/INFO]: medunax was slain by Piglin Brute
-[01:49:17] [Server thread/INFO]: Staadler has made the advancement [Into Fire]
-[01:52:49] [Server thread/INFO]: worgho2 has made the advancement [War Pigs]
-[01:52:50] [Server thread/INFO]: worgho2 has made the advancement [Hidden in the Depths]
+[01:57:55] [ServerMain/INFO]: Building unoptimized datafixer
+[01:58:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:58:05] [ServerMain/INFO]: Loaded 7 recipes
+[01:58:10] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[01:58:10] [Server thread/INFO]: Loading properties
+[01:58:10] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
+[01:58:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:58:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:58:11] [Server thread/INFO]: Default game type: SURVIVAL
+[01:58:11] [Server thread/INFO]: Generating keypair
+[01:58:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:58:11] [Server thread/INFO]: Using epoll channel type
+[01:58:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:58:11] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[01:58:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:58:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:58:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:58:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:58:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:58:12] [Server thread/INFO]: Preparing level "world"
+[01:58:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:58:33] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:33] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:33] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:33] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:33] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:34] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:34] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:35] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:35] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:36] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:36] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:37] [Server thread/INFO]: Time elapsed: 5363 ms
+[01:58:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:58:37] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:37] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:38] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:38] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:39] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:39] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:39] [Server thread/INFO]: Time elapsed: 2816 ms
+[01:58:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:58:40] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:40] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:40] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:58:42] [Server thread/INFO]: Time elapsed: 2258 ms
+[01:58:42] [Server thread/INFO]: Running delayed init tasks
+[01:58:42] [Server thread/INFO]: Done (31.990s)! For help, type "help"
+[01:58:42] [Server thread/INFO]: Timings Reset
+[01:58:42] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[01:58:46] [Server thread/INFO]: medunax joined the game
+[01:58:46] [Server thread/INFO]: medunax[/177.202.112.85:60482] logged in with entity id 1 at ([world_nether]145.22750297871113, 56.0, -110.3780996122684)
+[01:58:49] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/363, uuid='a42478d8-13a1-42b8-ae74-4fa34848d5be', l='ServerLevel[world_nether]', x=197.84, y=31.50, z=-45.87, cpos=[12, -3], tl=48443, v=false]
+[01:58:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5037ms or 100 ticks behind
+[01:58:54] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/421, uuid='c08aee85-8db2-41b7-b812-b0c5f51b61c1', l='ServerLevel[world_nether]', x=326.45, y=31.50, z=-288.02, cpos=[20, -19], tl=59, v=false]
