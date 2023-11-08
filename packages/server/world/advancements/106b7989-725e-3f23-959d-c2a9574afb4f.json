@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-11-08 01:36:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2023-11-08 00:14:16 +0000"
@@ -179,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-11-08 01:34:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2023-11-08 01:30:59 +0000"
@@ -196,7 +208,8 @@
       "cooked_porkchop": "2023-11-08 00:31:15 +0000",
       "chicken": "2023-11-08 01:16:15 +0000",
       "cooked_beef": "2023-11-08 00:21:17 +0000",
-      "apple": "2023-11-08 00:19:14 +0000"
+      "apple": "2023-11-08 00:19:14 +0000",
+      "bread": "2023-11-08 01:34:08 +0000"
     },
     "done": false
   },
@@ -560,9 +573,16 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-08 01:36:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2023-11-08 00:19:46 +0000",
+      "minecraft:ghast": "2023-11-08 01:36:37 +0000",
       "minecraft:spider": "2023-11-08 00:27:29 +0000",
       "minecraft:enderman": "2023-11-08 01:18:27 +0000",
       "minecraft:zombie": "2023-11-08 00:19:39 +0000",
@@ -573,6 +593,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2023-11-08 00:45:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-11-08 01:36:07 +0000"
     },
     "done": true
   },
@@ -591,6 +617,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2023-11-08 01:00:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-11-08 01:34:56 +0000"
     },
     "done": true
   },
@@ -831,6 +863,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2023-11-08 00:24:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-08 01:36:49 +0000"
     },
     "done": true
   },
@@ -1105,6 +1143,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-11-08 01:36:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-11-08 00:16:12 +0000"
@@ -1164,6 +1208,12 @@
       "has_iron_ingot": "2023-11-08 00:29:03 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-11-08 01:36:08 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
