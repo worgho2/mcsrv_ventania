@@ -83,3 +83,5 @@
 [05:14:50] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/21381, uuid='8b0ab44f-7321-4b33-b1f3-e538b5291287', l='ServerLevel[world]', x=-338.70, y=61.00, z=-130.70, cpos=[-22, -9], tl=1689047, v=true] died, message: 'Leatherworker was slain by Zombie'
 [05:22:41] [Server thread/INFO]: medunax was shot by Skeleton
 [05:26:59] [Server thread/INFO]: medunax fell off a ladder
+[05:47:38] [Server thread/INFO]: medunax hit the ground too hard
+[05:48:11] [Server thread/INFO]: medunax was shot by Skeleton
