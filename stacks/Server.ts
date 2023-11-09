@@ -43,37 +43,34 @@ export const Server = ({ stack }: sst.StackContext) => {
 
     const userData = UserData.forLinux();
 
-    /**
-     * Install dependencies
-     */
     userData.addCommands(
         ...[
-            'sudo yum update -y',
-            'sudo yum install -y java-17-amazon-corretto',
-            'sudo yum install -y git',
-            'sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm',
-            'sudo systemctl start amazon-ssm-agent',
-        ],
-    );
+            /**
+             * Install dependencies
+             */
+            'yum update -y',
+            'yum install -y java-17-amazon-corretto',
+            'yum install -y git',
+            'yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm',
+            'systemctl start amazon-ssm-agent',
 
-    /**
-     * Setup repository
-     */
-    userData.addCommands(
-        ...[
+            /**
+             * Setup git repository
+             */
             // `sudo git config --global url."${GITHUB_PAT_URL}".insteadOf ${GITHUB_URL}`,
             // `git clone ${GITHUB_URL} ${repositoryPath}`,
             `git clone ${GITHUB_PAT_URL} ${repositoryPath}`,
             `chown -R ec2-user:ec2-user ${repositoryPath}`,
-        ],
-    );
 
-    /**
-     * Setup mcsrv systemd service and named pipe
-     */
-    userData.addCommands(
-        ...[
+            /**
+             * Setup named pipe
+             */
             'mkfifo /home/ec2-user/mcsrv.fifo',
+            'chown ec2-user:ec2-user /home/ec2-user/mcsrv.fifo',
+
+            /**
+             * Setup mcsrv systemd service
+             */
             'cat << EOF > /etc/systemd/system/mcsrv.service',
             '[Unit]',
             'Description=MCSRV Service',
@@ -89,15 +86,11 @@ export const Server = ({ stack }: sst.StackContext) => {
             '[Install]',
             'WantedBy=multi-user.target',
             'EOF',
-            'sudo systemctl enable mcsrv --now',
-        ],
-    );
+            'systemctl enable mcsrv --now',
 
-    /**
-     * Setup cron jobs
-     */
-    userData.addCommands(
-        ...[
+            /**
+             * Setup cron jobs
+             */
             `echo "@reboot ec2-user ${repositoryPath}/packages/scripts/on-reboot.sh" | sudo tee -a /etc/cron.d/mcsrv-on-reboot`,
             `echo "*/10 * * * * ec2-user ${repositoryPath}/packages/scripts/sync-server-data.sh" | sudo tee -a /etc/cron.d/mcsrv-sync-server-data`,
         ],
