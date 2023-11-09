@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-11-09 00:57:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2023-11-08 01:24:14 +0000"
@@ -451,6 +457,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-11-08 00:19:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-11-09 00:57:49 +0000"
     },
     "done": true
   },
@@ -760,6 +772,7 @@
       "minecraft:skeleton": "2023-11-08 00:19:46 +0000",
       "minecraft:ghast": "2023-11-08 01:36:37 +0000",
       "minecraft:spider": "2023-11-08 00:27:29 +0000",
+      "minecraft:creeper": "2023-11-09 00:57:21 +0000",
       "minecraft:wither_skeleton": "2023-11-09 00:34:33 +0000",
       "minecraft:enderman": "2023-11-08 01:18:27 +0000",
       "minecraft:zombie": "2023-11-08 00:19:39 +0000",
@@ -1375,6 +1388,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2023-11-09 00:53:34 +0000",
       "minecraft:frozen_river": "2023-11-08 01:13:45 +0000",
       "minecraft:beach": "2023-11-08 00:52:38 +0000",
       "minecraft:river": "2023-11-08 01:04:53 +0000",
