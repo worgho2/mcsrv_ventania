@@ -158,3 +158,8 @@
 [21:57:31] [Server thread/INFO]: /whitelist: A Mojang provided command.
 [21:57:31] [Server thread/INFO]: /worldborder: A Mojang provided command.
 [21:57:32] [Server thread/INFO]: /xp: A Mojang provided command.
+[22:25:53] [User Authenticator #1/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[22:25:54] [Server thread/INFO]: worgho2 joined the game
+[22:25:54] [Server thread/INFO]: worgho2[/191.177.136.129:2362] logged in with entity id 203 at ([world]-306.2515152273349, 64.0, -143.03895157087888)
+[22:26:03] [Server thread/WARN]: UUID of added entity already exists: EntityCow['Cow'/627, uuid='54ddd388-c575-455e-aa22-6433197933ba', l='ServerLevel[world]', x=-355.22, y=66.00, z=61.15, cpos=[-23, 3], tl=122134, v=false]
+[22:27:20] [Server thread/INFO]: worgho2 was slain by Enderman
