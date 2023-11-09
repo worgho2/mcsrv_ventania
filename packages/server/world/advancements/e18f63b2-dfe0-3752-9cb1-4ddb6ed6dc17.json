@@ -1285,6 +1285,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2023-11-09 00:53:12 +0000",
       "minecraft:frozen_river": "2023-11-08 00:35:18 +0000",
       "minecraft:beach": "2023-11-08 00:35:39 +0000",
       "minecraft:river": "2023-11-08 00:22:01 +0000",

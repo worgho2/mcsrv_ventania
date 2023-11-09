@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2023-11-09 00:48:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2023-11-08 00:29:03 +0000"
@@ -313,6 +319,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2023-11-08 00:16:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2023-11-09 00:48:20 +0000"
     },
     "done": true
   },
@@ -1539,7 +1551,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2023-11-08 01:39:49 +0000",
-      "minecraft:nether_wastes": "2023-11-08 01:36:08 +0000"
+      "minecraft:nether_wastes": "2023-11-08 01:36:08 +0000",
+      "minecraft:warped_forest": "2023-11-09 00:51:37 +0000"
     },
     "done": false
   },
