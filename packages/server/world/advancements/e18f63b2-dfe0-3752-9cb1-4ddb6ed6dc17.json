@@ -700,6 +700,7 @@
     "criteria": {
       "minecraft:blaze": "2023-11-08 01:11:11 +0000",
       "minecraft:skeleton": "2023-11-08 00:41:23 +0000",
+      "minecraft:hoglin": "2023-11-09 00:39:08 +0000",
       "minecraft:wither_skeleton": "2023-11-08 01:21:08 +0000",
       "minecraft:zombie": "2023-11-08 00:45:31 +0000"
     },
