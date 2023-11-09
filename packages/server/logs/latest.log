@@ -62,3 +62,7 @@
 [00:36:06] [Netty Epoll Server IO #2/WARN]: Staadler sent expired chat: '-250 130'. Is the client/server system time unsynchronized? c: 1699489813 s: 1699490166
 [00:36:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Staadler> -250 130
 [00:41:24] [Server thread/INFO]: Satanaejj2 was shot by Staadler
+[00:45:02] [Server thread/INFO]: Staadler has made the advancement [Ice Bucket Challenge]
+[00:45:49] [Netty Epoll Server IO #2/WARN]: Staadler sent expired chat: '-200'. Is the client/server system time unsynchronized? c: 1699490396 s: 1699490749
+[00:45:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Staadler> -200
+[00:48:20] [Server thread/INFO]: Staadler has made the advancement [Who is Cutting Onions?]
