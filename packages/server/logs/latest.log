@@ -54,3 +54,13 @@
 [23:29:07] [Server thread/INFO]: worgho2[/191.177.136.129:2238] logged in with entity id 177 at ([world]-307.30000001192093, 64.0, -136.68332795116646)
 [23:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
 [23:29:14] [Server thread/INFO]: There are 1 of a max of 20 players online: worgho2
+[23:31:01] [Server thread/INFO]: worgho2 issued server command: /list
+[23:31:19] [Server thread/INFO]: worgho2 issued server command: /
+[23:31:25] [Server thread/INFO]: worgho2 issued server command: /
+[23:31:27] [Async Chat Thread - #0/INFO]: [Not Secure] <worgho2> help
+[23:31:32] [Server thread/INFO]: worgho2 issued server command: /help
+[23:31:50] [Async Chat Thread - #0/INFO]: [Not Secure] <worgho2> me
+[23:31:55] [Server thread/INFO]: worgho2 issued server command: /me
+[23:32:13] [Server thread/INFO]: worgho2 issued server command: /help 2
+[23:32:22] [Server thread/INFO]: worgho2 issued server command: /trigger
+[23:32:30] [Server thread/INFO]: worgho2 issued server command: /help trigger
