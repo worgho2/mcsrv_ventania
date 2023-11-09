@@ -9,8 +9,7 @@ export enum ServerState {
 }
 
 export interface ServerConnection {
-    port?: string;
-    host?: string;
+    address?: string;
     state: ServerState;
 }
 
@@ -18,4 +17,6 @@ export interface ServerManager {
     start(): Promise<ServerState>;
     stop(): Promise<ServerState>;
     getConnection(): Promise<ServerConnection>;
+    sendCommand(command: string): Promise<string[]>;
+    getLogs(): Promise<string[]>;
 }

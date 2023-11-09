@@ -9,6 +9,8 @@
     "dependencies": {
         "@aws-lambda-powertools/logger": "^1.14.2",
         "@aws-sdk/client-ec2": "^3.441.0",
+        "@aws-sdk/client-ssm": "^3.445.0",
+        "@discordjs/builders": "^1.6.5",
         "@middy/core": "^4.6.5",
         "@middy/http-cors": "^4.6.5",
         "@middy/http-error-handler": "^4.6.5",

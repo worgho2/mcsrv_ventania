@@ -5,11 +5,14 @@ import {
     APIInteractionResponse,
     InteractionResponseType,
     InteractionType,
+    MessageFlags,
 } from 'discord.js';
 import { ServerState } from 'src/application/server-manager';
+import { ExecuteServerCommand } from 'src/application/use-cases/execute-server-command';
 import { GetServerConnection } from 'src/application/use-cases/get-server-connection';
 import { StartServer } from 'src/application/use-cases/start-server';
 import { StopServer } from 'src/application/use-cases/stop-server';
+import { DiscordAuth } from 'src/infrastructure/discord-auth';
 import { Ec2ServerManager } from 'src/infrastructure/ec2-server-manager';
 import { LambdaHandlerAdapter } from 'src/infrastructure/lambda-handler-adapter';
 import nacl from 'tweetnacl';
@@ -17,10 +20,13 @@ import nacl from 'tweetnacl';
 const { AWS_REGION, AWS_EC2_INSTANCE_ID, DISCORD_BOT_PUBLIC_KEY } = process.env;
 
 const logger = new Logger();
+const auth = new DiscordAuth();
 const serverManager = new Ec2ServerManager(AWS_REGION, AWS_EC2_INSTANCE_ID);
+
 const getServerConnection = new GetServerConnection(serverManager);
 const startServer = new StartServer(logger, serverManager);
 const stopServer = new StopServer(logger, serverManager);
+const executeServerCommand = new ExecuteServerCommand(auth, serverManager);
 
 export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
     APIGatewayProxyHandlerV2WithLambdaAuthorizer<unknown>
@@ -73,7 +79,7 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
     let response: APIInteractionResponse;
     const command = interaction.data.name;
 
-    logger.info(`Receiver application command: "${command}" (${JSON.stringify(interaction)})`);
+    logger.info(`Received application command: "${command}" (${JSON.stringify(interaction)})`);
 
     if (command === 'start') {
         const output = await startServer.execute({});
@@ -98,12 +104,7 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
             },
         };
     } else if (command === 'status') {
-        const output = await getServerConnection.execute({});
-
-        const fullHost =
-            output.host !== undefined && output.port !== undefined
-                ? `${output.host}:${output.port}`
-                : undefined;
+        const { state, address } = await getServerConnection.execute({});
 
         const stateToReadableMap: Record<keyof typeof ServerState, string> = {
             PENDING: 'O Servidor está sendo preparado para inicialização',
@@ -119,15 +120,46 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
             type: InteractionResponseType.ChannelMessageWithSource,
             data: {
                 content:
-                    stateToReadableMap[output.state] +
-                    (fullHost !== undefined ? `. O endereço é: \`${fullHost}\`` : ''),
+                    stateToReadableMap[state] +
+                    (address !== undefined ? `. O endereço é: \`${address}\`` : ''),
             },
         };
+    } else if (command === 'execute') {
+        try {
+            const castedOptions = interaction as any;
+            const commandOption = castedOptions.data.options[0]?.value as string | undefined;
+
+            if (commandOption === undefined) {
+                throw new Error('Command option not found');
+            }
+
+            const { output } = await executeServerCommand.execute({
+                principal: DiscordAuth.extractPrincipal(interaction),
+                command: commandOption,
+            });
+
+            response = {
+                type: InteractionResponseType.ChannelMessageWithSource,
+                data: {
+                    content: `Comando \`${commandOption}\` executado.\n${output}`,
+                    flags: MessageFlags.Ephemeral,
+                },
+            };
+        } catch (error) {
+            response = {
+                type: InteractionResponseType.ChannelMessageWithSource,
+                data: {
+                    content: error instanceof Error ? error.message : 'Erro desconhecido',
+                    flags: MessageFlags.Ephemeral,
+                },
+            };
+        }
     } else {
         response = {
             type: InteractionResponseType.ChannelMessageWithSource,
             data: {
                 content: `Unknown command: ${command}`,
+                flags: MessageFlags.Ephemeral,
             },
         };
     }

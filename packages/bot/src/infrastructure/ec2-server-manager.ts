@@ -5,17 +5,20 @@ import {
     StartInstancesCommand,
     StopInstancesCommand,
 } from '@aws-sdk/client-ec2';
+import { SSMClient, SendCommandCommand } from '@aws-sdk/client-ssm';
 import createHttpError from 'http-errors';
 import { ServerConnection, ServerManager, ServerState } from 'src/application/server-manager';
 
 export class Ec2ServerManager implements ServerManager {
     private ec2Client: EC2Client;
+    private ssmClient: SSMClient;
 
     constructor(
         AWS_REGION: string,
         private readonly AWS_EC2_INSTANCE_ID: string,
     ) {
         this.ec2Client = new EC2Client({ region: AWS_REGION });
+        this.ssmClient = new SSMClient({ region: AWS_REGION });
     }
 
     private mapInstanceState = (stateName?: string): ServerState => {
@@ -98,10 +101,29 @@ export class Ec2ServerManager implements ServerManager {
             new DescribeInstancesCommand({ InstanceIds: [this.AWS_EC2_INSTANCE_ID] }),
         );
 
+        const ip = Reservations?.[0]?.Instances?.[0]?.PublicIpAddress;
+
         return {
-            port: `25565`,
-            host: Reservations?.[0]?.Instances?.[0]?.PublicIpAddress,
+            address: ip !== undefined ? `${ip}:25565` : undefined,
             state: currentState,
         };
+    }
+
+    async sendCommand(command: string): Promise<string[]> {
+        await this.ssmClient.send(
+            new SendCommandCommand({
+                InstanceIds: [this.AWS_EC2_INSTANCE_ID],
+                DocumentName: 'AWS-RunShellScript',
+                Parameters: {
+                    commands: [`echo "${command}" > /home/ec2-user/mcsrv.fifo`],
+                },
+            }),
+        );
+
+        return ['ok'];
+    }
+
+    async getLogs(): Promise<string[]> {
+        return ['not implemented'];
     }
 }

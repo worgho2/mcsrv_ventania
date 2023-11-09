@@ -19,7 +19,7 @@ export const Bot = ({ stack }: sst.StackContext) => {
             'POST /api/interactions': {
                 function: {
                     handler: 'packages/bot/src/interface/api/interactions.handler',
-                    permissions: ['ec2:*'],
+                    permissions: ['ec2:*', 'ssm:*'],
                     environment: {
                         AWS_EC2_INSTANCE_ID: instance.instanceId,
                         DISCORD_BOT_PUBLIC_KEY,

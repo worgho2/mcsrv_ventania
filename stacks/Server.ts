@@ -51,6 +51,8 @@ export const Server = ({ stack }: sst.StackContext) => {
             'sudo yum update -y',
             'sudo yum install -y java-17-amazon-corretto',
             'sudo yum install -y git',
+            'sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm',
+            'sudo systemctl start amazon-ssm-agent',
         ],
     );
 
@@ -66,10 +68,11 @@ export const Server = ({ stack }: sst.StackContext) => {
     );
 
     /**
-     * Setup mcsrv systemd service
+     * Setup mcsrv systemd service and named pipe
      */
     userData.addCommands(
         ...[
+            'mkfifo /home/ec2-user/mcsrv.fifo',
             'cat << EOF > /etc/systemd/system/mcsrv.service',
             '[Unit]',
             'Description=MCSRV Service',
@@ -113,6 +116,9 @@ export const Server = ({ stack }: sst.StackContext) => {
         role,
         userData,
         keyName: SERVER_SSH_KEY_NAME,
+        requireImdsv2: true,
+        ssmSessionPermissions: true,
+        userDataCausesReplacement: true,
     });
 
     return {
