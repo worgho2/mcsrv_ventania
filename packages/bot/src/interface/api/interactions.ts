@@ -175,15 +175,17 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
         const maxPlayers = applicationStatus?.players?.max ?? 0;
         const players = applicationStatus?.players?.list ?? [];
 
-        embed.addFields([
-            {
-                name: `Jogadores (${onlinePlayers}/${maxPlayers})`,
-                value:
-                    players.length > 0
-                        ? players.map((player) => `> ${player.name}`).join('\n')
-                        : 'Nenhum jogador online',
-            },
-        ]);
+        if (connection.state === ServerState.RUNNING) {
+            embed.addFields([
+                {
+                    name: `Jogadores (${onlinePlayers}/${maxPlayers})`,
+                    value:
+                        players.length > 0
+                            ? players.map((player) => `> ${player.name}`).join('\n')
+                            : 'Nenhum jogador online',
+                },
+            ]);
+        }
 
         if (applicationStatus?.version) {
             embed.setFooter({
