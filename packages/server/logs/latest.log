@@ -66,3 +66,6 @@
 [23:32:30] [Server thread/INFO]: worgho2 issued server command: /help trigger
 [23:43:02] [Server thread/INFO]: worgho2 lost connection: Disconnected
 [23:43:03] [Server thread/INFO]: worgho2 left the game
+[23:54:40] [User Authenticator #2/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[23:54:40] [Server thread/INFO]: worgho2 joined the game
+[23:54:40] [Server thread/INFO]: worgho2[/191.177.136.129:2231] logged in with entity id 1836 at ([world]-306.5744477900955, 64.0, -136.4999167426185)
