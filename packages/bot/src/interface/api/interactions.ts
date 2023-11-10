@@ -1,6 +1,8 @@
 import { Logger } from '@aws-lambda-powertools/logger';
+import { EmbedBuilder } from '@discordjs/builders';
 import { APIGatewayProxyHandlerV2WithLambdaAuthorizer } from 'aws-lambda';
 import {
+    APIEmbed,
     APIInteraction,
     APIInteractionResponse,
     InteractionResponseType,
@@ -9,7 +11,7 @@ import {
 } from 'discord.js';
 import { ServerState } from 'src/application/server-manager';
 import { ExecuteServerCommand } from 'src/application/use-cases/execute-server-command';
-import { GetServerConnection } from 'src/application/use-cases/get-server-connection';
+import { GetServerStatus } from 'src/application/use-cases/get-server-status';
 import { StartServer } from 'src/application/use-cases/start-server';
 import { StopServer } from 'src/application/use-cases/stop-server';
 import { DiscordAuth } from 'src/infrastructure/discord-auth';
@@ -23,7 +25,7 @@ const logger = new Logger();
 const auth = new DiscordAuth();
 const serverManager = new Ec2ServerManager(AWS_REGION, AWS_EC2_INSTANCE_ID);
 
-const getServerConnection = new GetServerConnection(serverManager);
+const getServerStatus = new GetServerStatus(serverManager);
 const startServer = new StartServer(logger, serverManager);
 const stopServer = new StopServer(logger, serverManager);
 const executeServerCommand = new ExecuteServerCommand(auth, serverManager);
@@ -104,24 +106,93 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
             },
         };
     } else if (command === 'status') {
-        const { state, address } = await getServerConnection.execute({});
+        const { connection, applicationStatus } = await getServerStatus.execute({});
 
-        const stateToReadableMap: Record<keyof typeof ServerState, string> = {
-            PENDING: 'O Servidor está sendo preparado para inicialização',
-            RUNNING: 'Servidor ON!',
-            SHUTTING_DOWN: 'O servidor está sendo desligado, aguarde...',
-            STOPPED: 'O servidor está desligado. Execute o comando `/start` para iniciá-lo',
-            STOPPING: 'O servidor está sendo desligado, aguarde...',
-            TERMINATED: 'O servidor foi deletado :<, chama o baza',
-            UNKNOWN: 'O servidor se encontra em um estado desconhecido, chama o baza',
-        };
+        const embed = new EmbedBuilder().setTitle('Status do Servidor');
+
+        if (connection.state === ServerState.RUNNING) {
+            embed.setColor([0, 255, 0]);
+
+            if (applicationStatus?.online) {
+                embed.setDescription('Servidor ON!');
+            } else {
+                embed.setDescription('Aguardando aplicação iniciar...');
+            }
+
+            if (connection.address) {
+                embed.addFields([{ name: 'IP', value: `> \`${connection.address}\`` }]);
+            }
+
+            if (applicationStatus?.iconUrl) {
+                embed.setThumbnail(applicationStatus.iconUrl);
+            }
+
+            if (applicationStatus?.players.list) {
+                embed.addFields([
+                    {
+                        name: 'Jogadores',
+                        value: applicationStatus.players.list
+                            .map((player) => `> ${player.name}`)
+                            .join('\n'),
+                    },
+                ]);
+            }
+
+            if (applicationStatus?.version) {
+                embed.setFooter({
+                    text: `${applicationStatus.software ?? 'Versão'} ${
+                        applicationStatus.version ?? 'desconhecida'
+                    }`,
+                    iconURL: applicationStatus.iconUrl,
+                });
+            }
+        } else {
+            const stateToInfoMap: Record<
+                keyof typeof ServerState,
+                {
+                    description: string;
+                    color: [number, number, number];
+                }
+            > = {
+                PENDING: {
+                    description: 'O Servidor está sendo preparado para inicialização',
+                    color: [255, 255, 0],
+                },
+                RUNNING: {
+                    description: 'Servidor ON!',
+                    color: [0, 255, 0],
+                },
+                SHUTTING_DOWN: {
+                    description: 'O servidor está sendo desligado, aguarde...',
+                    color: [255, 255, 0],
+                },
+                STOPPED: {
+                    description:
+                        'O servidor está desligado. Execute o comando `/start` para iniciá-lo',
+                    color: [255, 0, 0],
+                },
+                STOPPING: {
+                    description: 'O servidor está sendo desligado, aguarde...',
+                    color: [255, 255, 0],
+                },
+                TERMINATED: {
+                    description: 'O servidor foi deletado :<, chama o baza',
+                    color: [255, 0, 0],
+                },
+                UNKNOWN: {
+                    description: 'O servidor se encontra em um estado desconhecido, chama o baza',
+                    color: [255, 0, 0],
+                },
+            };
+
+            const { description, color } = stateToInfoMap[connection.state];
+            embed.setDescription(description).setColor(color);
+        }
 
         response = {
             type: InteractionResponseType.ChannelMessageWithSource,
             data: {
-                content:
-                    stateToReadableMap[state] +
-                    (address !== undefined ? `. O endereço é: \`${address}\`` : ''),
+                embeds: [embed.toJSON()],
             },
         };
     } else if (command === 'execute') {

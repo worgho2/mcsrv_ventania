@@ -7,7 +7,13 @@ import {
 } from '@aws-sdk/client-ec2';
 import { SSMClient, SendCommandCommand } from '@aws-sdk/client-ssm';
 import createHttpError from 'http-errors';
-import { ServerConnection, ServerManager, ServerState } from 'src/application/server-manager';
+import {
+    ServerApplicationStatus,
+    ServerConnection,
+    ServerManager,
+    ServerState,
+    ServerStatus,
+} from 'src/application/server-manager';
 
 export class Ec2ServerManager implements ServerManager {
     private ec2Client: EC2Client;
@@ -90,7 +96,7 @@ export class Ec2ServerManager implements ServerManager {
         return state;
     }
 
-    async getConnection(): Promise<ServerConnection> {
+    private async getConnection(): Promise<ServerConnection> {
         const currentState = await this.getInstanceState();
 
         if (currentState !== ServerState.RUNNING) {
@@ -109,6 +115,37 @@ export class Ec2ServerManager implements ServerManager {
         };
     }
 
+    private async getApplicationStatus(ipAddress: string): Promise<ServerApplicationStatus> {
+        try {
+            const response = await fetch(`https://api.mcsrvstat.us/3/${ipAddress}`);
+            const data = (await response.json()) as ServerApplicationStatus;
+            return {
+                ...data,
+                iconUrl: `https://api.mcsrvstat.us/icon/${ipAddress}`,
+            };
+        } catch (error) {
+            return {
+                online: false,
+                ip: ipAddress,
+                port: 25565,
+                version: 'unknown',
+                motd: { raw: [], clean: [], html: [] },
+                players: { online: 0, max: 0 },
+                iconUrl: `https://api.mcsrvstat.us/icon/${ipAddress}`,
+            };
+        }
+    }
+
+    async getStatus(): Promise<ServerStatus> {
+        const connection = await this.getConnection();
+        const applicationStatus =
+            connection.state === ServerState.RUNNING && connection.address !== undefined
+                ? await this.getApplicationStatus(connection.address)
+                : undefined;
+
+        return { connection, applicationStatus };
+    }
+
     async sendCommand(command: string): Promise<string[]> {
         await this.ssmClient.send(
             new SendCommandCommand({
@@ -120,10 +157,6 @@ export class Ec2ServerManager implements ServerManager {
             }),
         );
 
-        return ['ok'];
-    }
-
-    async getLogs(): Promise<string[]> {
-        return ['not implemented'];
+        return [];
     }
 }
