@@ -31,7 +31,7 @@ export interface ServerApplicationStatus {
         cacheexpire: number;
         apiversion: number;
     };
-    version: string;
+    version?: string;
     protocol?: {
         version: number;
         name?: string;
@@ -46,12 +46,12 @@ export interface ServerApplicationStatus {
     gamemode?: string;
     serverid?: string;
     eula_blocked?: boolean;
-    motd: {
+    motd?: {
         raw: string[];
         clean: string[];
         html: string[];
     };
-    players: {
+    players?: {
         online: number;
         max: number;
         list?: {

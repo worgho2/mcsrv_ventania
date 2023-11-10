@@ -108,85 +108,88 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
     } else if (command === 'status') {
         const { connection, applicationStatus } = await getServerStatus.execute({});
 
-        const embed = new EmbedBuilder().setTitle('Status do Servidor');
+        const stateToInfoMap: Record<
+            keyof typeof ServerState,
+            { title: string; description: string; color: [number, number, number] }
+        > = {
+            PENDING: {
+                title: ':bulb: Servidor em inicialização',
+                description: 'Aguarde...',
+                color: [255, 255, 0],
+            },
+            RUNNING: {
+                title: applicationStatus?.online
+                    ? ':rocket: Servidor ON'
+                    : ':raised_hands: Aguardando aplicação iniciar',
+                description: applicationStatus?.online ? ':pick:' : 'Aguarde mais um pouco...',
+                color: [0, 255, 0],
+            },
+            SHUTTING_DOWN: {
+                title: ':stop_sign: Desligando o servidor',
+                description: 'Aguarde...',
+                color: [255, 255, 0],
+            },
+            STOPPED: {
+                title: ':stop_sign: Servidor desligado',
+                description: 'Execute o comando `/start` para iniciá-lo',
+                color: [255, 0, 0],
+            },
+            STOPPING: {
+                title: ':stop_sign: Desligando o servidor',
+                description: 'Aguarde...',
+                color: [255, 255, 0],
+            },
+            TERMINATED: {
+                title: ':warning: Servidor deletado',
+                description: 'O servidor foi deletado :<, chama o baza',
+                color: [255, 0, 0],
+            },
+            UNKNOWN: {
+                title: ':warning: Estado desconhecido',
+                description: 'O servidor se encontra em um estado desconhecido, chama o baza',
+                color: [255, 0, 0],
+            },
+        };
 
-        if (connection.state === ServerState.RUNNING) {
-            embed.setColor([0, 255, 0]);
+        const { description, color } = stateToInfoMap[connection.state];
+        const embed = new EmbedBuilder().setDescription(description).setColor(color);
 
-            if (applicationStatus?.online) {
-                embed.setDescription('Servidor ON!');
-            } else {
-                embed.setDescription('Aguardando aplicação iniciar...');
-            }
+        if (applicationStatus?.iconUrl) {
+            embed.setThumbnail(applicationStatus.iconUrl);
+        }
 
-            if (connection.address) {
-                embed.addFields([{ name: 'IP', value: `> \`${connection.address}\`` }]);
-            }
-
-            if (applicationStatus?.iconUrl) {
-                embed.setThumbnail(applicationStatus.iconUrl);
-            }
-
-            if (applicationStatus?.players.list) {
-                embed.addFields([
-                    {
-                        name: 'Jogadores',
-                        value: applicationStatus.players.list
-                            .map((player) => `> ${player.name}`)
-                            .join('\n'),
-                    },
-                ]);
-            }
-
-            if (applicationStatus?.version) {
-                embed.setFooter({
-                    text: `${applicationStatus.software ?? 'Versão'} ${
-                        applicationStatus.version ?? 'desconhecida'
-                    }`,
-                    iconURL: applicationStatus.iconUrl,
-                });
-            }
-        } else {
-            const stateToInfoMap: Record<
-                keyof typeof ServerState,
+        if (applicationStatus?.motd && applicationStatus.motd.clean) {
+            embed.addFields([
                 {
-                    description: string;
-                    color: [number, number, number];
-                }
-            > = {
-                PENDING: {
-                    description: 'O Servidor está sendo preparado para inicialização',
-                    color: [255, 255, 0],
+                    name: 'Mensagem do dia',
+                    value: applicationStatus.motd.clean.map((m) => `> ${m}`).join('\n'),
                 },
-                RUNNING: {
-                    description: 'Servidor ON!',
-                    color: [0, 255, 0],
-                },
-                SHUTTING_DOWN: {
-                    description: 'O servidor está sendo desligado, aguarde...',
-                    color: [255, 255, 0],
-                },
-                STOPPED: {
-                    description:
-                        'O servidor está desligado. Execute o comando `/start` para iniciá-lo',
-                    color: [255, 0, 0],
-                },
-                STOPPING: {
-                    description: 'O servidor está sendo desligado, aguarde...',
-                    color: [255, 255, 0],
-                },
-                TERMINATED: {
-                    description: 'O servidor foi deletado :<, chama o baza',
-                    color: [255, 0, 0],
-                },
-                UNKNOWN: {
-                    description: 'O servidor se encontra em um estado desconhecido, chama o baza',
-                    color: [255, 0, 0],
-                },
-            };
+            ]);
+        }
 
-            const { description, color } = stateToInfoMap[connection.state];
-            embed.setDescription(description).setColor(color);
+        if (connection.address) {
+            embed.addFields([{ name: 'IP', value: `> \`${connection.address}\`` }]);
+        }
+
+        const onlinePlayers = applicationStatus?.players?.online ?? 0;
+        const maxPlayers = applicationStatus?.players?.max ?? 0;
+        const players = applicationStatus?.players?.list ?? [];
+
+        embed.addFields([
+            {
+                name: `Jogadores (${onlinePlayers}/${maxPlayers})`,
+                value:
+                    players.length > 0
+                        ? players.map((player) => `> ${player.name}`).join('\n')
+                        : 'Nenhum jogador online',
+            },
+        ]);
+
+        if (applicationStatus?.version) {
+            embed.setFooter({
+                text: `v${applicationStatus.version ?? 'desconhecida'}`,
+                iconURL: applicationStatus.iconUrl,
+            });
         }
 
         response = {

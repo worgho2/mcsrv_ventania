@@ -128,9 +128,6 @@ export class Ec2ServerManager implements ServerManager {
                 online: false,
                 ip: ipAddress,
                 port: 25565,
-                version: 'unknown',
-                motd: { raw: [], clean: [], html: [] },
-                players: { online: 0, max: 0 },
                 iconUrl: `https://api.mcsrvstat.us/icon/${ipAddress}`,
             };
         }
