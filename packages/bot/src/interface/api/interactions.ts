@@ -113,39 +113,39 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
             { title: string; description: string; color: [number, number, number] }
         > = {
             PENDING: {
-                title: ':bulb: Servidor em inicialização',
+                title: 'Servidor em inicialização  :bulb:',
                 description: 'Aguarde...',
                 color: [255, 255, 0],
             },
             RUNNING: {
                 title: applicationStatus?.online
-                    ? ':rocket: Servidor ON'
-                    : ':raised_hands: Aguardando aplicação iniciar',
+                    ? 'Servidor ON  :rocket:'
+                    : ':raised_hands:  Aguardando aplicação iniciar',
                 description: applicationStatus?.online ? ':pick:' : 'Aguarde mais um pouco...',
                 color: [0, 255, 0],
             },
             SHUTTING_DOWN: {
-                title: ':stop_sign: Desligando o servidor',
+                title: 'Desligando o servidor',
                 description: 'Aguarde...',
                 color: [255, 255, 0],
             },
             STOPPED: {
-                title: ':stop_sign: Servidor desligado',
+                title: 'Servidor desligado',
                 description: 'Execute o comando `/start` para iniciá-lo',
                 color: [255, 0, 0],
             },
             STOPPING: {
-                title: ':stop_sign: Desligando o servidor',
+                title: 'Desligando o servidor',
                 description: 'Aguarde...',
                 color: [255, 255, 0],
             },
             TERMINATED: {
-                title: ':warning: Servidor deletado',
+                title: 'Servidor deletado  :warning:',
                 description: 'O servidor foi deletado :<, chama o baza',
                 color: [255, 0, 0],
             },
             UNKNOWN: {
-                title: ':warning: Estado desconhecido',
+                title: 'Estado desconhecido  :warning:',
                 description: 'O servidor se encontra em um estado desconhecido, chama o baza',
                 color: [255, 0, 0],
             },
@@ -162,12 +162,7 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
         }
 
         if (applicationStatus?.motd && applicationStatus.motd.clean) {
-            embed.addFields([
-                {
-                    name: 'Mensagem do dia',
-                    value: applicationStatus.motd.clean.map((m) => `> ${m}`).join('\n'),
-                },
-            ]);
+            embed.setDescription(applicationStatus.motd.clean.map((m) => `> ${m}`).join('\n'));
         }
 
         if (connection.address) {
