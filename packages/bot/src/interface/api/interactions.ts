@@ -151,8 +151,11 @@ export const handler = LambdaHandlerAdapter.create(logger).adaptHttp<
             },
         };
 
-        const { description, color } = stateToInfoMap[connection.state];
-        const embed = new EmbedBuilder().setDescription(description).setColor(color);
+        const { title, description, color } = stateToInfoMap[connection.state];
+        const embed = new EmbedBuilder()
+            .setTitle(title)
+            .setDescription(description)
+            .setColor(color);
 
         if (applicationStatus?.iconUrl) {
             embed.setThumbnail(applicationStatus.iconUrl);
