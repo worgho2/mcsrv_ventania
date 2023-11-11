@@ -110,3 +110,8 @@
 [10:47:05] [Server thread/INFO]: Gave 4 [Smoker] to worgho2
 [10:47:29] [Server thread/INFO]: Gave 4 [Hopper] to worgho2
 [10:47:41] [Server thread/INFO]: Gave 4 [Hopper] to worgho2
+[10:56:20] [Server thread/INFO]: Gave 128 [Blast Furnace] to worgho2
+[10:57:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:57:53] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[10:57:53] [Server thread/INFO]: ... minecraft:blackstone 128<--[HERE]
+[10:58:03] [Server thread/INFO]: Gave 128 [Blackstone] to worgho2
