@@ -1461,10 +1461,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2023-11-11 09:07:59 +0000",
       "minecraft:birch_forest": "2023-11-11 08:50:15 +0000",
       "minecraft:beach": "2023-11-04 01:21:42 +0000",
       "minecraft:river": "2023-11-04 01:04:09 +0000",
       "minecraft:dripstone_caves": "2023-11-04 04:28:57 +0000",
+      "minecraft:swamp": "2023-11-11 09:07:10 +0000",
       "minecraft:cold_ocean": "2023-11-07 07:08:20 +0000",
       "minecraft:forest": "2023-11-04 01:27:55 +0000",
       "minecraft:ocean": "2023-11-11 08:54:55 +0000",
