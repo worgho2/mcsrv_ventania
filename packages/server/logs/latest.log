@@ -94,3 +94,6 @@
 [09:18:05] [Server thread/INFO]: Teleported worgho2 to medunax
 [09:18:42] [Server thread/INFO]: Villager EntityVillager['Villager'/40, uuid='ac44a440-a1f9-4af0-bc72-8c65759bdbff', l='ServerLevel[world_nether]', x=-9.40, y=30.22, z=-48.31, cpos=[-1, -4], tl=3249697, v=true] died, message: 'Villager tried to swim in lava'
 [09:19:47] [Server thread/INFO]: Teleported worgho2 to medunax
+[09:31:16] [Server thread/INFO]: worgho2 has made the advancement [Ol' Betsy]
+[09:39:12] [Server thread/INFO]: No entity was found
+[09:39:51] [Server thread/INFO]: Teleported 2 entities to -321.500000, 63.000000, -133.500000
