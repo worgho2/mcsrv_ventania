@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2023-11-07 19:39:12 +0000"
@@ -86,6 +92,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2023-11-04 01:33:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
     },
     "done": true
   },
@@ -170,6 +182,12 @@
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-11-04 01:18:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
     },
     "done": true
   },
@@ -521,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2023-11-11 08:41:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-11-04 01:32:03 +0000"
@@ -578,6 +602,7 @@
       "minecraft:creeper": "2023-11-04 01:08:24 +0000",
       "minecraft:slime": "2023-11-07 20:49:35 +0000",
       "minecraft:zombified_piglin": "2023-11-08 02:21:15 +0000",
+      "minecraft:witch": "2023-11-11 08:34:15 +0000",
       "minecraft:piglin": "2023-11-08 01:50:49 +0000",
       "minecraft:enderman": "2023-11-08 01:13:53 +0000",
       "minecraft:zombie": "2023-11-04 01:06:24 +0000",
@@ -952,6 +977,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2023-11-11 08:41:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2023-11-08 00:59:53 +0000"
@@ -1066,6 +1097,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2023-11-04 01:04:02 +0000"
@@ -1170,10 +1207,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2023-11-11 08:40:33 +0000",
       "minecraft:beach": "2023-11-04 01:08:30 +0000",
+      "minecraft:mangrove_swamp": "2023-11-11 08:37:02 +0000",
       "minecraft:river": "2023-11-04 01:28:28 +0000",
       "minecraft:dripstone_caves": "2023-11-04 02:13:15 +0000",
+      "minecraft:swamp": "2023-11-11 08:29:00 +0000",
       "minecraft:forest": "2023-11-04 01:50:04 +0000",
+      "minecraft:windswept_forest": "2023-11-11 08:40:15 +0000",
+      "minecraft:jungle": "2023-11-11 08:37:16 +0000",
+      "minecraft:windswept_savanna": "2023-11-11 08:41:45 +0000",
+      "minecraft:old_growth_birch_forest": "2023-11-11 08:41:41 +0000",
       "minecraft:plains": "2023-11-04 01:02:39 +0000"
     },
     "done": false
@@ -1346,6 +1390,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-11-11 08:37:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2023-11-08 01:10:21 +0000",
@@ -1353,6 +1403,12 @@
       "minecraft:soul_sand_valley": "2023-11-08 01:45:41 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-11-11 08:38:21 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
@@ -1417,6 +1473,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-11-04 01:05:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-11-11 08:38:21 +0000"
     },
     "done": true
   },
@@ -2104,6 +2166,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2023-11-04 01:27:55 +0000"
@@ -2161,6 +2229,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2023-11-04 01:06:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
     },
     "done": true
   },
@@ -2260,6 +2334,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2023-11-04 01:19:29 +0000"
@@ -2320,6 +2400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-11-11 08:37:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/weathered_cut_copper": {
     "criteria": {
       "has_weathered_copper": "2023-11-10 01:55:46 +0000"
@@ -2353,6 +2439,12 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2023-11-04 02:59:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2023-11-11 08:41:00 +0000"
     },
     "done": true
   },
@@ -2395,6 +2487,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2023-11-04 02:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
     },
     "done": true
   },
@@ -2677,6 +2775,18 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2023-11-04 02:59:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-11-11 08:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2023-11-11 08:37:52 +0000"
     },
     "done": true
   },
