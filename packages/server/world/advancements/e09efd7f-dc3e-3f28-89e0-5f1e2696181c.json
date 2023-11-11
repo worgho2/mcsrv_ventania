@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2023-11-04 04:29:00 +0000"
@@ -494,6 +500,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2023-11-05 23:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
     },
     "done": true
   },
@@ -644,6 +656,12 @@
   "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
       "has_basalt": "2023-11-07 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
     },
     "done": true
   },
@@ -1177,6 +1195,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2023-11-07 18:08:33 +0000"
@@ -1437,11 +1461,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2023-11-11 08:50:15 +0000",
       "minecraft:beach": "2023-11-04 01:21:42 +0000",
       "minecraft:river": "2023-11-04 01:04:09 +0000",
       "minecraft:dripstone_caves": "2023-11-04 04:28:57 +0000",
       "minecraft:cold_ocean": "2023-11-07 07:08:20 +0000",
       "minecraft:forest": "2023-11-04 01:27:55 +0000",
+      "minecraft:ocean": "2023-11-11 08:54:55 +0000",
+      "minecraft:windswept_savanna": "2023-11-11 08:51:44 +0000",
+      "minecraft:old_growth_birch_forest": "2023-11-11 08:51:49 +0000",
       "minecraft:meadow": "2023-11-04 01:07:11 +0000",
       "minecraft:plains": "2023-11-04 01:02:29 +0000"
     },
@@ -2330,6 +2358,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2023-11-04 01:31:49 +0000"
@@ -2615,6 +2649,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2023-11-06 00:23:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
     },
     "done": true
   },
@@ -2999,6 +3039,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2023-11-05 22:51:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-11-11 08:49:16 +0000"
     },
     "done": true
   },
