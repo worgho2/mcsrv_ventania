@@ -691,6 +691,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-11-11 04:29:53 +0000",
       "minecraft:skeleton": "2023-11-04 01:55:14 +0000",
       "minecraft:ghast": "2023-11-08 01:46:37 +0000",
       "minecraft:hoglin": "2023-11-08 01:52:42 +0000",
@@ -831,6 +832,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab": {
     "criteria": {
       "has_deepslate_bricks": "2023-11-05 23:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-11-11 04:29:53 +0000"
     },
     "done": true
   },
