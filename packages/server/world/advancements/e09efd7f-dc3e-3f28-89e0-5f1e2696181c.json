@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-11-11 09:12:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2023-11-04 02:42:54 +0000"
@@ -1461,6 +1467,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2023-11-11 09:17:21 +0000",
       "minecraft:taiga": "2023-11-11 09:07:59 +0000",
       "minecraft:birch_forest": "2023-11-11 08:50:15 +0000",
       "minecraft:beach": "2023-11-04 01:21:42 +0000",
@@ -2516,6 +2523,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-11-11 09:12:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2023-11-06 00:42:38 +0000"
@@ -2603,6 +2616,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-11-06 00:29:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2023-11-11 09:10:36 +0000"
     },
     "done": true
   },

@@ -90,3 +90,7 @@
 [09:04:20] [Server thread/INFO]: Teleported medunax to worgho2
 [09:05:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [09:09:51] [Async Chat Thread - #1/INFO]: [Not Secure] <medunax> e
+[09:10:36] [Server thread/INFO]: medunax has made the advancement [Who's the Pillager Now?]
+[09:18:05] [Server thread/INFO]: Teleported worgho2 to medunax
+[09:18:42] [Server thread/INFO]: Villager EntityVillager['Villager'/40, uuid='ac44a440-a1f9-4af0-bc72-8c65759bdbff', l='ServerLevel[world_nether]', x=-9.40, y=30.22, z=-48.31, cpos=[-1, -4], tl=3249697, v=true] died, message: 'Villager tried to swim in lava'
+[09:19:47] [Server thread/INFO]: Teleported worgho2 to medunax

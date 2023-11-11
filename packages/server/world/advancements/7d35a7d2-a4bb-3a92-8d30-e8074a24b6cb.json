@@ -595,6 +595,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-11-11 09:10:54 +0000",
       "minecraft:skeleton": "2023-11-04 01:28:02 +0000",
       "minecraft:hoglin": "2023-11-08 02:20:43 +0000",
       "minecraft:spider": "2023-11-04 01:07:38 +0000",
@@ -1207,12 +1208,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2023-11-11 09:08:00 +0000",
       "minecraft:birch_forest": "2023-11-11 08:40:33 +0000",
       "minecraft:beach": "2023-11-04 01:08:30 +0000",
       "minecraft:mangrove_swamp": "2023-11-11 08:37:02 +0000",
       "minecraft:river": "2023-11-04 01:28:28 +0000",
       "minecraft:dripstone_caves": "2023-11-04 02:13:15 +0000",
       "minecraft:swamp": "2023-11-11 08:29:00 +0000",
+      "minecraft:cold_ocean": "2023-11-11 09:06:17 +0000",
       "minecraft:forest": "2023-11-04 01:50:04 +0000",
       "minecraft:windswept_forest": "2023-11-11 08:40:15 +0000",
       "minecraft:jungle": "2023-11-11 08:37:16 +0000",
