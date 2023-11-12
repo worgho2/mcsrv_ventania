@@ -58,3 +58,9 @@
 [20:06:01] [User Authenticator #2/INFO]: UUID of player Satanaejj2 is e18f63b2-dfe0-3752-9cb1-4ddb6ed6dc17
 [20:06:01] [Server thread/INFO]: Satanaejj2 joined the game
 [20:06:01] [Server thread/INFO]: Satanaejj2[/179.211.6.134:50849] logged in with entity id 926 at ([world_nether]-175.10838287047955, 77.0, -2.7158657841898743)
+[20:20:12] [Netty Epoll Server IO #3/WARN]: Staadler sent expired chat: '-42 - 28'. Is the client/server system time unsynchronized? c: 1699820057 s: 1699820412
+[20:20:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Staadler> -42 - 28
+[20:20:32] [Server thread/INFO]: Staadler fell from a high place
+[20:23:17] [Server thread/INFO]: Staadler fell from a high place
+[20:26:25] [Server thread/INFO]: Staadler tried to swim in lava
+[20:27:59] [Server thread/INFO]: Staadler discovered the floor was lava

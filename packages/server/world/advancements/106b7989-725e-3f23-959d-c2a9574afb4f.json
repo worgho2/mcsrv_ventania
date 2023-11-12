@@ -502,6 +502,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2023-11-12 20:25:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2023-11-08 01:44:44 +0000"
@@ -766,6 +772,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2023-11-12 20:25:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-11-09 00:44:15 +0000"
@@ -831,6 +843,7 @@
       "minecraft:blaze": "2023-11-08 01:49:16 +0000",
       "minecraft:skeleton": "2023-11-08 00:19:46 +0000",
       "minecraft:ghast": "2023-11-08 01:36:37 +0000",
+      "minecraft:magma_cube": "2023-11-12 20:22:26 +0000",
       "minecraft:spider": "2023-11-08 00:27:29 +0000",
       "minecraft:creeper": "2023-11-09 00:57:21 +0000",
       "minecraft:witch": "2023-11-09 01:15:02 +0000",
@@ -1328,6 +1341,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2023-11-12 20:25:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2023-11-08 00:14:53 +0000"
@@ -1695,7 +1714,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2023-11-08 01:39:49 +0000",
       "minecraft:nether_wastes": "2023-11-08 01:36:08 +0000",
-      "minecraft:warped_forest": "2023-11-09 00:51:37 +0000"
+      "minecraft:warped_forest": "2023-11-09 00:51:37 +0000",
+      "minecraft:basalt_deltas": "2023-11-12 20:22:28 +0000"
     },
     "done": false
   },
