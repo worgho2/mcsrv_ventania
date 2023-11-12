@@ -56,3 +56,13 @@
 [21:38:34] [Server thread/INFO]: medunax[/177.220.148.162:59520] logged in with entity id 157 at ([world]-358.74884330543887, 64.0, -159.71313052841973)
 [21:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5108ms or 102 ticks behind
 [21:49:28] [Server thread/INFO]: medunax was slain by Zombified Piglin
+[22:41:04] [Server thread/INFO]: medunax lost connection: Timed out
+[22:41:04] [Server thread/INFO]: medunax left the game
+[22:44:34] [User Authenticator #2/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[22:44:34] [Server thread/INFO]: medunax joined the game
+[22:44:34] [Server thread/INFO]: medunax[/177.220.148.162:50283] logged in with entity id 11200 at ([world]-309.13007724469423, 64.0, -152.39766990602678)
+[22:47:56] [Server thread/INFO]: medunax lost connection: Timed out
+[22:47:56] [Server thread/INFO]: medunax left the game
+[22:49:40] [User Authenticator #3/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[22:49:41] [Server thread/INFO]: medunax joined the game
+[22:49:41] [Server thread/INFO]: medunax[/177.220.148.162:19904] logged in with entity id 12254 at ([world]-310.3542079789229, 64.0, -160.9497985860418)
