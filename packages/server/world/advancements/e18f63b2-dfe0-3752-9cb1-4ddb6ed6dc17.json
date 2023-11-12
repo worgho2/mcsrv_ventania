@@ -1614,10 +1614,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2023-11-08 01:05:52 +0000",
       "minecraft:nether_wastes": "2023-11-08 00:54:46 +0000",
+      "minecraft:soul_sand_valley": "2023-11-12 21:03:59 +0000",
       "minecraft:warped_forest": "2023-11-08 00:54:36 +0000",
       "minecraft:basalt_deltas": "2023-11-12 20:20:23 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
