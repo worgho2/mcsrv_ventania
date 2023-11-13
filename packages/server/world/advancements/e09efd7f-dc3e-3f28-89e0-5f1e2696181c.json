@@ -395,6 +395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2023-11-13 05:35:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2023-11-04 02:42:54 +0000"
@@ -686,6 +692,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-11-04 01:31:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2023-11-13 05:35:05 +0000"
     },
     "done": true
   },
@@ -1612,6 +1624,7 @@
       "minecraft:swamp": "2023-11-11 09:07:10 +0000",
       "minecraft:cold_ocean": "2023-11-07 07:08:20 +0000",
       "minecraft:forest": "2023-11-04 01:27:55 +0000",
+      "minecraft:deep_cold_ocean": "2023-11-13 05:34:33 +0000",
       "minecraft:ocean": "2023-11-11 08:54:55 +0000",
       "minecraft:windswept_savanna": "2023-11-11 08:51:44 +0000",
       "minecraft:old_growth_birch_forest": "2023-11-11 08:51:49 +0000",
@@ -1785,6 +1798,12 @@
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2023-11-07 18:13:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2023-11-13 05:35:05 +0000"
     },
     "done": true
   },
