@@ -1,68 +1,59 @@
-[21:32:52] [ServerMain/INFO]: Building unoptimized datafixer
-[21:32:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:32:59] [ServerMain/INFO]: Loaded 7 recipes
-[21:33:03] [Server thread/INFO]: Starting minecraft server version 1.19.1
-[21:33:03] [Server thread/INFO]: Loading properties
-[21:33:03] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
-[21:33:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:33:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:33:04] [Server thread/INFO]: Default game type: SURVIVAL
-[21:33:04] [Server thread/INFO]: Generating keypair
-[21:33:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:33:04] [Server thread/INFO]: Using epoll channel type
-[21:33:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:33:04] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
-[21:33:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:33:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:33:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:33:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:33:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:33:05] [Server thread/INFO]: Preparing level "world"
-[21:33:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:33:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:29] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:29] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:30] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:31] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:31] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:32] [Server thread/INFO]: Time elapsed: 5548 ms
-[21:33:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:32] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:33] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:33] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:34] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:34] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:35] [Server thread/INFO]: Time elapsed: 3531 ms
-[21:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:33:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:36] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:36] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:37] [Server thread/INFO]: Preparing spawn area: 0%
-[21:33:37] [Server thread/INFO]: Time elapsed: 1600 ms
-[21:33:37] [Server thread/INFO]: Running delayed init tasks
-[21:33:37] [Server thread/INFO]: Done (34.039s)! For help, type "help"
-[21:33:37] [Server thread/INFO]: Timings Reset
-[21:38:33] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[21:38:34] [Server thread/INFO]: medunax joined the game
-[21:38:34] [Server thread/INFO]: medunax[/177.220.148.162:59520] logged in with entity id 157 at ([world]-358.74884330543887, 64.0, -159.71313052841973)
-[21:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5108ms or 102 ticks behind
-[21:49:28] [Server thread/INFO]: medunax was slain by Zombified Piglin
-[22:41:04] [Server thread/INFO]: medunax lost connection: Timed out
-[22:41:04] [Server thread/INFO]: medunax left the game
-[22:44:34] [User Authenticator #2/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[22:44:34] [Server thread/INFO]: medunax joined the game
-[22:44:34] [Server thread/INFO]: medunax[/177.220.148.162:50283] logged in with entity id 11200 at ([world]-309.13007724469423, 64.0, -152.39766990602678)
-[22:47:56] [Server thread/INFO]: medunax lost connection: Timed out
-[22:47:56] [Server thread/INFO]: medunax left the game
-[22:49:40] [User Authenticator #3/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[22:49:41] [Server thread/INFO]: medunax joined the game
-[22:49:41] [Server thread/INFO]: medunax[/177.220.148.162:19904] logged in with entity id 12254 at ([world]-310.3542079789229, 64.0, -160.9497985860418)
+[05:27:03] [ServerMain/INFO]: Building unoptimized datafixer
+[05:27:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:27:11] [ServerMain/INFO]: Loaded 7 recipes
+[05:27:14] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[05:27:14] [Server thread/INFO]: Loading properties
+[05:27:14] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
+[05:27:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:27:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:27:15] [Server thread/INFO]: Default game type: SURVIVAL
+[05:27:15] [Server thread/INFO]: Generating keypair
+[05:27:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:27:16] [Server thread/INFO]: Using epoll channel type
+[05:27:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:27:16] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[05:27:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:27:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:27:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:27:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:27:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:27:16] [Server thread/INFO]: Preparing level "world"
+[05:27:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:39] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:39] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:42] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:42] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:42] [Server thread/INFO]: Time elapsed: 5711 ms
+[05:27:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:44] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:44] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:45] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:45] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:46] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:46] [Server thread/INFO]: Time elapsed: 3693 ms
+[05:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:48] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:48] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:49] [Server thread/INFO]: Preparing spawn area: 0%
+[05:27:49] [Server thread/INFO]: Time elapsed: 2673 ms
+[05:27:49] [Server thread/INFO]: Running delayed init tasks
+[05:27:49] [Server thread/INFO]: Done (34.600s)! For help, type "help"
+[05:27:49] [Server thread/INFO]: Timings Reset
+[05:27:49] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[05:27:53] [Server thread/INFO]: medunax joined the game
+[05:27:53] [Server thread/INFO]: medunax[/177.220.148.162:52475] logged in with entity id 11 at ([world]-309.11858822779806, 64.0, -148.33405698982673)
+[05:27:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
