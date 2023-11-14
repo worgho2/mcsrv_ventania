@@ -53,3 +53,5 @@
 [14:53:57] [Server thread/INFO]: medunax joined the game
 [14:53:57] [Server thread/INFO]: medunax[/177.202.112.85:63992] logged in with entity id 1 at ([world]-319.0339060414392, 64.0, -137.4705582135161)
 [14:54:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[15:08:57] [Server thread/INFO]: medunax lost connection: Disconnected
+[15:08:57] [Server thread/INFO]: medunax left the game
