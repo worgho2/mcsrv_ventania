@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2023-11-14 03:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2023-11-04 02:16:50 +0000"
@@ -560,6 +566,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2023-11-11 10:24:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2023-11-14 03:33:13 +0000"
     },
     "done": true
   },
@@ -994,6 +1006,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2023-11-07 20:49:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2023-11-14 03:33:13 +0000"
     },
     "done": true
   },
@@ -2942,6 +2960,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2023-11-08 01:05:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2023-11-14 03:33:13 +0000"
     },
     "done": true
   },
