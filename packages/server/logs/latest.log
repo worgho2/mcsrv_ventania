@@ -1,73 +1,69 @@
-[05:27:03] [ServerMain/INFO]: Building unoptimized datafixer
-[05:27:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:27:11] [ServerMain/INFO]: Loaded 7 recipes
-[05:27:14] [Server thread/INFO]: Starting minecraft server version 1.19.1
-[05:27:14] [Server thread/INFO]: Loading properties
-[05:27:14] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
-[05:27:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:27:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:27:15] [Server thread/INFO]: Default game type: SURVIVAL
-[05:27:15] [Server thread/INFO]: Generating keypair
-[05:27:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:27:16] [Server thread/INFO]: Using epoll channel type
-[05:27:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:27:16] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
-[05:27:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:27:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:27:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:27:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:27:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:27:16] [Server thread/INFO]: Preparing level "world"
-[05:27:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:38] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:39] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:39] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:40] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:40] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:41] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:41] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:42] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:42] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:42] [Server thread/INFO]: Time elapsed: 5711 ms
-[05:27:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:43] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:44] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:44] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:45] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:45] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:46] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:46] [Server thread/INFO]: Time elapsed: 3693 ms
-[05:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:47] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:48] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:48] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:49] [Server thread/INFO]: Preparing spawn area: 0%
-[05:27:49] [Server thread/INFO]: Time elapsed: 2673 ms
-[05:27:49] [Server thread/INFO]: Running delayed init tasks
-[05:27:49] [Server thread/INFO]: Done (34.600s)! For help, type "help"
-[05:27:49] [Server thread/INFO]: Timings Reset
-[05:27:49] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[05:27:53] [Server thread/INFO]: medunax joined the game
-[05:27:53] [Server thread/INFO]: medunax[/177.220.148.162:52475] logged in with entity id 11 at ([world]-309.11858822779806, 64.0, -148.33405698982673)
-[05:27:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
-[05:42:56] [Server thread/INFO]: medunax lost connection: Disconnected
-[05:42:56] [Server thread/INFO]: medunax left the game
-[05:42:58] [User Authenticator #2/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[05:42:59] [Server thread/INFO]: medunax joined the game
-[05:42:59] [Server thread/INFO]: medunax[/177.220.148.162:26431] logged in with entity id 7570 at ([world]168.30000001192093, 53.0, -699.3554349115309)
-[05:59:14] [Server thread/INFO]: medunax was blown up by Creeper
-[06:16:47] [Server thread/INFO]: medunax lost connection: Disconnected
-[06:16:47] [Server thread/INFO]: medunax left the game
-[06:23:17] [User Authenticator #3/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[06:23:17] [Server thread/INFO]: medunax joined the game
-[06:23:17] [Server thread/INFO]: medunax[/177.220.148.162:53370] logged in with entity id 17823 at ([world]583.9457653566659, 74.0, -1135.6721983634322)
-[06:43:59] [Server thread/INFO]: medunax fell from a high place
-[06:44:06] [Server thread/INFO]: medunax lost connection: Disconnected
-[06:44:06] [Server thread/INFO]: medunax left the game
+[03:06:27] [ServerMain/INFO]: Building unoptimized datafixer
+[03:06:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:06:34] [ServerMain/INFO]: Loaded 7 recipes
+[03:06:38] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[03:06:38] [Server thread/INFO]: Loading properties
+[03:06:38] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
+[03:06:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:06:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:06:39] [Server thread/INFO]: Default game type: SURVIVAL
+[03:06:39] [Server thread/INFO]: Generating keypair
+[03:06:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:06:39] [Server thread/INFO]: Using epoll channel type
+[03:06:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:06:39] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[03:06:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:06:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:06:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:06:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:06:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:06:39] [Server thread/INFO]: Preparing level "world"
+[03:07:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:06] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:06] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:07] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:07] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:08] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:08] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:09] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:09] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:10] [Server thread/INFO]: Time elapsed: 6293 ms
+[03:07:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:07:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:11] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:12] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:12] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:13] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:13] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:13] [Server thread/INFO]: Time elapsed: 3298 ms
+[03:07:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:07:14] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:14] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:15] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:15] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:15] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:16] [Server thread/INFO]: Preparing spawn area: 0%
+[03:07:16] [Server thread/INFO]: Time elapsed: 2514 ms
+[03:07:16] [Server thread/INFO]: Running delayed init tasks
+[03:07:16] [Server thread/INFO]: Done (38.362s)! For help, type "help"
+[03:07:16] [Server thread/INFO]: Timings Reset
+[03:07:17] [User Authenticator #1/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[03:07:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@1a4a4483[id=7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb,name=worgho2,properties={},legacy=false] (/191.177.173.129:24706) lost connection: Disconnected
+[03:07:20] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/19, uuid='66f69497-0213-45d6-ae03-c2ce677b699f', l='ServerLevel[world_nether]', x=-82.50, y=76.00, z=-4.41, cpos=[-6, -1], tl=25800, v=false]
+[03:07:20] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/25, uuid='66f69497-0213-45d6-ae03-c2ce677b699f', l='ServerLevel[world_nether]', x=-77.29, y=99.00, z=-72.35, cpos=[-5, -5], tl=91796, v=false]
+[03:07:20] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/58, uuid='685a4c94-708b-48d1-97dc-1cdd9e0f7b6d', l='ServerLevel[world_nether]', x=-44.48, y=69.00, z=28.75, cpos=[-3, 1], tl=127781, v=false]
+[03:07:20] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/59, uuid='685a4c94-708b-48d1-97dc-1cdd9e0f7b6d', l='ServerLevel[world_nether]', x=-43.71, y=69.00, z=49.50, cpos=[-3, 3], tl=115783, v=false]
+[03:07:22] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/116, uuid='05cd7856-915a-4993-a433-94a16ef830de', l='ServerLevel[world_nether]', x=-112.61, y=79.00, z=26.50, cpos=[-8, 1], tl=22146, v=false]
+[03:07:22] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/122, uuid='b56d246d-f24b-4885-868d-159997c38e29', l='ServerLevel[world_nether]', x=-134.70, y=79.00, z=112.50, cpos=[-9, 7], tl=86979, v=false]
+[03:08:11] [User Authenticator #1/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[03:08:12] [Server thread/INFO]: worgho2 joined the game
+[03:08:12] [Server thread/INFO]: worgho2[/191.177.173.129:24736] logged in with entity id 168 at ([world]-306.30000001192093, 64.0, -136.30000001192093)
+[03:08:42] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[03:08:42] [Server thread/INFO]: medunax joined the game
+[03:08:42] [Server thread/INFO]: medunax[/177.202.112.85:54288] logged in with entity id 813 at ([world]-165.5, 68.0, 153.5)
