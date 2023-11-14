@@ -88,3 +88,8 @@
 [05:22:48] [Server thread/INFO]: Teleported 2 entities to -321.500000, 63.000000, -133.500000
 [05:38:08] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/29095, uuid='114aa224-697d-45ba-b9e9-4a1898b3e45e', l='ServerLevel[world_nether]', x=-180.35, y=90.00, z=-96.41, cpos=[-12, -7], tl=64950, v=false]
 [05:49:17] [Server thread/INFO]: Gave 64 [Chest] to worgho2
+[05:50:07] [Server thread/INFO]: Gave 256 [Blackstone] to worgho2
+[05:52:56] [Server thread/INFO]: Gave 256 [Item Frame] to worgho2
+[05:54:49] [Server thread/INFO]: Teleported medunax to worgho2
+[05:58:31] [Server thread/INFO]: Gave 64 [Polished Blackstone Brick Slab] to worgho2
+[05:59:49] [Server thread/INFO]: medunax has made the advancement [A Terrible Fortress]
