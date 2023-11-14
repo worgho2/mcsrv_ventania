@@ -87,3 +87,4 @@
 [05:14:45] [Server thread/INFO]: Teleported medunax to worgho2
 [05:22:48] [Server thread/INFO]: Teleported 2 entities to -321.500000, 63.000000, -133.500000
 [05:38:08] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/29095, uuid='114aa224-697d-45ba-b9e9-4a1898b3e45e', l='ServerLevel[world_nether]', x=-180.35, y=90.00, z=-96.41, cpos=[-12, -7], tl=64950, v=false]
+[05:49:17] [Server thread/INFO]: Gave 64 [Chest] to worgho2
