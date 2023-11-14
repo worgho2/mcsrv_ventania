@@ -7,6 +7,8 @@ import {
     AmazonLinuxImage,
     AmazonLinuxKernel,
     AmazonLinuxVirt,
+    BlockDevice,
+    BlockDeviceVolume,
     Instance,
     InstanceClass,
     InstanceSize,
@@ -38,6 +40,11 @@ export const Server = ({ stack }: sst.StackContext) => {
     const role = new Role(stack, 'ServerRole', {
         assumedBy: new ServicePrincipal('ec2.amazonaws.com'),
     });
+
+    const rootVolume: BlockDevice = {
+        deviceName: '/dev/xvda',
+        volume: BlockDeviceVolume.ebs(30),
+    };
 
     const repositoryPath = '/home/ec2-user/repo';
 
@@ -113,6 +120,7 @@ export const Server = ({ stack }: sst.StackContext) => {
         requireImdsv2: true,
         ssmSessionPermissions: true,
         userDataCausesReplacement: true,
+        blockDevices: [rootVolume],
     });
 
     return {
