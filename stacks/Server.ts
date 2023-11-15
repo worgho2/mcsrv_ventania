@@ -22,7 +22,7 @@ import {
 import { Role, ServicePrincipal } from 'aws-cdk-lib/aws-iam';
 
 export const Server = ({ stack }: sst.StackContext) => {
-    const { SERVER_SSH_KEY_NAME, GITHUB_URL, GITHUB_PAT_URL } = sst.use(Config);
+    const { SERVER_SSH_KEY_NAME, GITHUB_PAT_URL } = sst.use(Config);
 
     const vpc = Vpc.fromLookup(stack, `ServerVpc`, { isDefault: true });
 
@@ -64,8 +64,6 @@ export const Server = ({ stack }: sst.StackContext) => {
             /**
              * Setup git repository
              */
-            // `sudo git config --global url."${GITHUB_PAT_URL}".insteadOf ${GITHUB_URL}`,
-            // `git clone ${GITHUB_URL} ${repositoryPath}`,
             `git clone ${GITHUB_PAT_URL} ${repositoryPath}`,
             `chown -R ec2-user:ec2-user ${repositoryPath}`,
 

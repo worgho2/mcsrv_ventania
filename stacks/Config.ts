@@ -1,7 +1,6 @@
 import * as sst from 'sst/constructs';
 
 export const Config = ({ stack }: sst.StackContext) => {
-    const GITHUB_URL = process.env.GITHUB_URL;
     const GITHUB_PAT_URL = process.env.GITHUB_PAT_URL;
     const SERVER_SSH_KEY_NAME = process.env.SERVER_SSH_KEY_NAME;
     const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
@@ -9,7 +8,6 @@ export const Config = ({ stack }: sst.StackContext) => {
     const DISCORD_BOT_PUBLIC_KEY = process.env.DISCORD_BOT_PUBLIC_KEY;
 
     if (
-        !GITHUB_URL ||
         !GITHUB_PAT_URL ||
         !SERVER_SSH_KEY_NAME ||
         !DISCORD_BOT_TOKEN ||
@@ -20,7 +18,6 @@ export const Config = ({ stack }: sst.StackContext) => {
     }
 
     return {
-        GITHUB_URL,
         GITHUB_PAT_URL,
         SERVER_SSH_KEY_NAME,
         DISCORD_BOT_TOKEN,

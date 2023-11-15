@@ -42,7 +42,34 @@ export const Bot = ({ stack }: sst.StackContext) => {
         },
     });
 
+    const updateDiscordInteractionsEndpointUrlJob = new sst.Script(
+        stack,
+        'UpdateDiscordInteractionsEndpointUrlJob',
+        {
+            onCreate:
+                'packages/bot/src/interface/jobs/update-discord-interactions-endpoint-url.handler',
+            onUpdate:
+                'packages/bot/src/interface/jobs/update-discord-interactions-endpoint-url.handler',
+            defaults: {
+                function: {
+                    environment: {
+                        DISCORD_BOT_TOKEN,
+                    },
+                },
+            },
+            params: {
+                interactionsEndpointUrl: `${discordApi.url}/api/interactions`,
+            },
+        },
+    );
+
     stack.addOutputs({
         discordInteractionsEndpoint: `${discordApi.url}/api/interactions`,
     });
+
+    return {
+        discordApi,
+        registerDiscordCommandsJob,
+        updateDiscordInteractionsEndpointUrlJob,
+    };
 };
