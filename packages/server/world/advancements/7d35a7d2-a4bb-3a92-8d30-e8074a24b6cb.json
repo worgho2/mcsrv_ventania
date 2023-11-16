@@ -1706,9 +1706,10 @@
       "minecraft:crimson_forest": "2023-11-08 01:10:21 +0000",
       "minecraft:nether_wastes": "2023-11-08 01:09:19 +0000",
       "minecraft:soul_sand_valley": "2023-11-08 01:45:41 +0000",
+      "minecraft:basalt_deltas": "2023-11-16 04:05:54 +0000",
       "minecraft:warped_forest": "2023-11-16 02:49:43 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
