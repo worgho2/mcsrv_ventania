@@ -53,3 +53,6 @@
 [19:19:27] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
 [19:19:28] [Server thread/INFO]: medunax joined the game
 [19:19:28] [Server thread/INFO]: medunax[/177.202.112.85:6723] logged in with entity id 201 at ([world_nether]-44.30000001192093, 74.0, -14.787297107602596)
+[20:04:18] [Server thread/WARN]: Boat (vehicle of medunax) moved wrongly! 0.33864232149754514
+[20:08:19] [Server thread/INFO]: medunax lost connection: Disconnected
+[20:08:19] [Server thread/INFO]: medunax left the game
