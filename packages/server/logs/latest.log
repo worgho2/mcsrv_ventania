@@ -1,133 +1,55 @@
-[02:24:32] [ServerMain/INFO]: Building unoptimized datafixer
-[02:24:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:24:42] [ServerMain/INFO]: Loaded 7 recipes
-[02:24:46] [Server thread/INFO]: Starting minecraft server version 1.19.1
-[02:24:46] [Server thread/INFO]: Loading properties
-[02:24:46] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
-[02:24:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:24:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:24:47] [Server thread/INFO]: Default game type: SURVIVAL
-[02:24:47] [Server thread/INFO]: Generating keypair
-[02:24:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:24:48] [Server thread/INFO]: Using epoll channel type
-[02:24:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:24:48] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
-[02:24:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:24:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:24:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:24:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:24:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:24:48] [Server thread/INFO]: Preparing level "world"
-[02:25:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:13] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:14] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:14] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:15] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:15] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:16] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:16] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:17] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:17] [Server thread/INFO]: Time elapsed: 6180 ms
-[02:25:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:25:17] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:18] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:18] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:19] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:19] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:20] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:20] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:20] [Server thread/INFO]: Time elapsed: 3205 ms
-[02:25:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:25:21] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:21] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:21] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:23] [Server thread/INFO]: Preparing spawn area: 0%
-[02:25:23] [Server thread/INFO]: Time elapsed: 2757 ms
-[02:25:23] [Server thread/INFO]: Running delayed init tasks
-[02:25:23] [Server thread/INFO]: Done (36.937s)! For help, type "help"
-[02:25:23] [Server thread/INFO]: Timings Reset
-[02:26:12] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[02:26:13] [Server thread/INFO]: medunax joined the game
-[02:26:13] [Server thread/INFO]: medunax[/177.202.112.85:63906] logged in with entity id 178 at ([world]-297.8091217853783, 64.04289683901332, -136.05167421895578)
-[02:26:14] [User Authenticator #1/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
-[02:26:14] [Server thread/INFO]: worgho2 joined the game
-[02:26:14] [Server thread/INFO]: worgho2[/191.177.173.129:24842] logged in with entity id 179 at ([world]-309.6954045078793, 64.0, -153.3023569701304)
-[02:28:45] [Server thread/INFO]: Gave 64 [Arrow] to worgho2
-[02:37:00] [Server thread/INFO]: Gave 64 [Obsidian] to worgho2
-[02:46:46] [Server thread/INFO]: Gave 64 [Torch] to worgho2
-[02:54:32] [Server thread/INFO]: Teleported medunax to worgho2
-[03:09:57] [Server thread/INFO]: Teleported medunax to worgho2
-[03:13:28] [Server thread/INFO]: worgho2 was slain by Zombified Piglin
-[03:14:20] [Server thread/INFO]: medunax was slain by Zombified Piglin
-[03:14:48] [Server thread/INFO]: worgho2 has made the advancement [Cover Me with Diamonds]
-[03:16:01] [Server thread/INFO]: medunax lost connection: Disconnected
-[03:16:01] [Server thread/INFO]: medunax left the game
-[03:19:21] [Server thread/INFO]: Gave 64 [Arrow] to worgho2
-[03:20:06] [User Authenticator #2/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[03:20:06] [Server thread/INFO]: medunax joined the game
-[03:20:06] [Server thread/INFO]: medunax[/177.202.112.85:6297] logged in with entity id 10622 at ([world_nether]-42.44401289760928, 75.0, -11.915904777603576)
-[03:20:11] [Server thread/INFO]: worgho2 was slain by Zombified Piglin
-[03:31:54] [Server thread/INFO]: medunax was slain by Zombified Piglin
-[03:32:12] [Server thread/INFO]: Teleported medunax to worgho2
-[03:32:23] [Server thread/INFO]: medunax was slain by Zombified Piglin
-[03:33:07] [Server thread/INFO]: Teleported medunax to worgho2
-[03:35:39] [Server thread/INFO]: worgho2 was slain by Piglin
-[03:36:30] [Server thread/INFO]: Teleported worgho2 to -209.500000, 33.000000, -121.500000
-[03:37:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[03:38:08] [Server thread/INFO]: Teleported worgho2 to medunax
-[03:53:19] [Server thread/INFO]: Teleported medunax to worgho2
-[03:59:08] [Server thread/INFO]: medunax lost connection: Disconnected
-[03:59:08] [Server thread/INFO]: medunax left the game
-[04:01:55] [Server thread/INFO]: Unknown item 'minecraft:netherite'
-[04:01:55] [Server thread/INFO]: ...e worgho2 minecraft:netherite 2<--[HERE]
-[04:04:39] [Server thread/INFO]: Gave 2 [TNT] to worgho2
-[04:04:47] [Server thread/INFO]: Gave 62 [TNT] to worgho2
-[04:05:54] [Server thread/INFO]: worgho2 has completed the challenge [Hot Tourist Destinations]
-[04:08:25] [Server thread/INFO]: Gave 62 [Redstone Torch] to worgho2
-[04:11:14] [User Authenticator #3/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
-[04:11:14] [Server thread/INFO]: medunax joined the game
-[04:11:14] [Server thread/INFO]: medunax[/177.202.112.85:64780] logged in with entity id 21051 at ([world_nether]-171.30000001192093, 12.0, -130.6689973190534)
-[04:14:49] [Server thread/INFO]: Gave 256 [TNT] to worgho2
-[04:23:32] [Server thread/INFO]: Teleported 2 entities to -321.500000, 63.000000, -133.500000
-[04:30:02] [Server thread/INFO]: Gave 128 [TNT] to medunax
-[04:30:08] [Server thread/INFO]: Gave 128 [TNT] to worgho2
-[04:33:55] [Server thread/INFO]: Gave 1 [Diamond Pickaxe] to worgho2
-[04:36:57] [Server thread/INFO]: Gave 256 [TNT] to worgho2
-[04:37:03] [Server thread/INFO]: Gave 256 [TNT] to medunax
-[04:45:32] [Server thread/INFO]: Gave 256 [TNT] to medunax
-[04:45:33] [Server thread/INFO]: medunax tried to swim in lava
-[04:46:42] [Server thread/INFO]: Gave 256 [TNT] to medunax
-[04:47:47] [Server thread/INFO]: Teleported medunax to worgho2
-[04:53:08] [Server thread/INFO]: medunax burned to death
-[04:53:32] [Server thread/INFO]: Teleported medunax to worgho2
-[04:58:14] [Server thread/INFO]: Teleported 2 entities to -321.500000, 63.000000, -133.500000
-[05:01:14] [Server thread/INFO]: Gave 1 [Netherite Pickaxe] to worgho2
-[05:02:46] [Server thread/INFO]: Gave 1 [Netherite Pickaxe] to worgho2
-[05:03:41] [Server thread/INFO]: Gave 256 [TNT] to medunax
-[05:14:28] [Server thread/INFO]: medunax was blown up by medunax
-[05:15:18] [Server thread/INFO]: Gave 256 [Torch] to medunax
-[05:15:31] [Server thread/INFO]: Gave 256 [Torch] to worgho2
-[05:29:30] [Server thread/INFO]: Gave 256 [TNT] to medunax
-[05:31:54] [Server thread/INFO]: No player was found
-[05:31:58] [Server thread/INFO]: Gave 256 [TNT] to worgho2
-[05:35:09] [Server thread/INFO]: medunax was blown up by medunax
-[05:35:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:36:06] [Server thread/INFO]: Teleported worgho2 to -321.500000, 63.000000, -133.500000
-[05:37:52] [Server thread/INFO]: Gave 1024 [TNT] to worgho2
-[05:39:07] [Server thread/INFO]: Gave 1024 [TNT] to worgho2
-[05:39:16] [Server thread/INFO]: Gave 1024 [TNT] to worgho2
-[05:39:24] [Server thread/INFO]: Gave 1024 [TNT] to worgho2
-[05:49:36] [Server thread/INFO]: medunax fell off a ladder
-[05:49:55] [Server thread/INFO]: medunax fell from a high place
-[05:55:59] [Server thread/INFO]: worgho2 has made the advancement [Into Fire]
-[05:59:26] [Server thread/INFO]: Gave 64 [Chest] to worgho2
-[06:02:51] [Server thread/INFO]: Gave 128 [Blackstone] to worgho2
-[06:05:16] [Server thread/INFO]: Gave 12 [Item Frame] to worgho2
-[06:12:50] [Server thread/INFO]: medunax was slain by Zombified Piglin
+[19:15:56] [ServerMain/INFO]: Building unoptimized datafixer
+[19:15:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:16:04] [ServerMain/INFO]: Loaded 7 recipes
+[19:16:08] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[19:16:08] [Server thread/INFO]: Loading properties
+[19:16:08] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
+[19:16:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:16:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:16:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:16:09] [Server thread/INFO]: Generating keypair
+[19:16:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:16:09] [Server thread/INFO]: Using epoll channel type
+[19:16:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:16:09] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[19:16:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:16:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:16:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:16:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:16:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:16:10] [Server thread/INFO]: Preparing level "world"
+[19:16:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:32] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:33] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:33] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:34] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:34] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:35] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:35] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:36] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:36] [Server thread/INFO]: Time elapsed: 5589 ms
+[19:16:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:16:37] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:37] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:37] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:39] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:39] [Server thread/INFO]: Time elapsed: 2969 ms
+[19:16:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:16:39] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:40] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:40] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:41] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:41] [Server thread/INFO]: Preparing spawn area: 0%
+[19:16:41] [Server thread/INFO]: Time elapsed: 2204 ms
+[19:16:41] [Server thread/INFO]: Running delayed init tasks
+[19:16:41] [Server thread/INFO]: Done (33.092s)! For help, type "help"
+[19:16:41] [Server thread/INFO]: Timings Reset
+[19:19:27] [User Authenticator #1/INFO]: UUID of player medunax is e09efd7f-dc3e-3f28-89e0-5f1e2696181c
+[19:19:28] [Server thread/INFO]: medunax joined the game
+[19:19:28] [Server thread/INFO]: medunax[/177.202.112.85:6723] logged in with entity id 201 at ([world_nether]-44.30000001192093, 74.0, -14.787297107602596)
