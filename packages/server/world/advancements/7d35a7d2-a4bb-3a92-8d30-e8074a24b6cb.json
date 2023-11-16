@@ -1028,6 +1028,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-11-16 05:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2023-11-04 01:06:45 +0000"
@@ -2769,6 +2775,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-11-16 05:53:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-11-04 01:32:03 +0000"
@@ -3153,6 +3165,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-11-16 05:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2023-11-04 01:09:09 +0000"
@@ -3180,6 +3198,12 @@
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2023-11-11 09:31:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-11-16 05:55:59 +0000"
     },
     "done": true
   },
@@ -3288,6 +3312,12 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2023-11-08 01:01:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-11-16 05:53:45 +0000"
     },
     "done": true
   },
