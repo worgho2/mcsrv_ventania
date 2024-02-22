@@ -47,3 +47,10 @@
 [02:08:40] [Server thread/INFO]: Running delayed init tasks
 [02:08:40] [Server thread/INFO]: Done (31.196s)! For help, type "help"
 [02:08:40] [Server thread/INFO]: Timings Reset
+[02:15:10] [Server thread/INFO]: /200.140.236.67:61022 lost connection: Disconnected
+[02:15:18] [Server thread/INFO]: /200.140.236.67:1263 lost connection: Disconnected
+[02:15:54] [Server thread/INFO]: /200.140.236.67:61028 lost connection: Disconnected
+[02:16:01] [Server thread/INFO]: /200.140.236.67:1265 lost connection: Disconnected
+[02:16:34] [Server thread/INFO]: /200.140.236.67:1267 lost connection: Disconnected
+[02:17:59] [Server thread/INFO]: /200.140.236.67:61034 lost connection: Disconnected
+[02:18:43] [Server thread/INFO]: /200.140.236.67:61036 lost connection: Disconnected
