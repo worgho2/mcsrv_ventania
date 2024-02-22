@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2024-02-22 03:27:28 +0000"
@@ -110,6 +116,12 @@
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2024-02-22 03:00:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
     },
     "done": true
   },
@@ -314,7 +326,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-02-22 02:30:07 +0000",
-      "cooked_beef": "2024-02-22 03:19:24 +0000"
+      "cooked_beef": "2024-02-22 03:19:24 +0000",
+      "cooked_chicken": "2024-02-22 12:20:05 +0000"
     },
     "done": false
   },
@@ -507,6 +520,12 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2024-02-22 03:40:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
     },
     "done": true
   },
@@ -798,6 +817,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2024-02-22 03:19:30 +0000"
@@ -819,6 +844,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-02-22 03:01:12 +0000",
+      "minecraft:spider": "2024-02-22 12:28:04 +0000",
       "minecraft:creeper": "2024-02-22 02:59:38 +0000",
       "minecraft:phantom": "2024-02-22 11:16:56 +0000",
       "minecraft:zombie": "2024-02-22 04:13:02 +0000"
@@ -1071,6 +1097,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2024-02-22 02:57:09 +0000"
@@ -1248,6 +1280,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2024-02-22 02:49:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-02-22 12:28:06 +0000"
     },
     "done": true
   },
