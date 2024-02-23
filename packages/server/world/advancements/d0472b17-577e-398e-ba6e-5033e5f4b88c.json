@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-02-23 21:02:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2024-02-22 03:19:30 +0000"
@@ -521,6 +527,7 @@
       "minecraft:spider": "2024-02-22 12:28:04 +0000",
       "minecraft:creeper": "2024-02-22 02:59:38 +0000",
       "minecraft:phantom": "2024-02-22 11:16:56 +0000",
+      "minecraft:witch": "2024-02-23 21:03:57 +0000",
       "minecraft:zombie": "2024-02-22 04:13:02 +0000"
     },
     "done": false
@@ -534,6 +541,12 @@
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
       "has_yellow_wool": "2024-02-22 19:48:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
     },
     "done": true
   },
@@ -1068,6 +1081,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-02-23 21:03:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2024-02-22 03:16:00 +0000"
@@ -1485,6 +1504,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2024-02-22 03:00:14 +0000"
@@ -1625,6 +1650,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2024-02-22 02:30:41 +0000"
@@ -1676,6 +1707,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-02-22 02:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
     },
     "done": true
   },
@@ -1754,6 +1791,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-02-22 03:16:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
     },
     "done": true
   },
@@ -2147,6 +2190,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2024-02-23 19:46:47 +0000"
@@ -2168,6 +2217,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2024-02-22 03:37:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
     },
     "done": true
   },
@@ -2324,6 +2379,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-02-22 02:49:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-02-23 21:03:57 +0000"
     },
     "done": true
   },
