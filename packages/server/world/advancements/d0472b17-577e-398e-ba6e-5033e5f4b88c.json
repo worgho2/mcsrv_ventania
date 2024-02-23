@@ -137,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-02-23 23:26:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2024-02-22 03:28:32 +0000"
@@ -1467,6 +1473,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-02-23 23:25:33 +0000",
       "cooked_mutton": "2024-02-22 02:30:07 +0000",
       "cooked_beef": "2024-02-22 03:19:24 +0000",
       "beef": "2024-02-23 23:09:32 +0000",
@@ -1873,6 +1880,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-02-23 23:22:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2024-02-22 04:15:17 +0000"
@@ -2236,6 +2249,12 @@
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2024-02-22 13:41:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2024-02-23 23:22:55 +0000"
     },
     "done": true
   },
