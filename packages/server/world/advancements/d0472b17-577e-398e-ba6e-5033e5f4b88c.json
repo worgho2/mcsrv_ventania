@@ -1146,6 +1146,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-02-23 19:52:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-02-23 19:20:00 +0000"
@@ -2168,6 +2174,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-02-22 02:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-02-23 19:52:59 +0000"
     },
     "done": true
   },
