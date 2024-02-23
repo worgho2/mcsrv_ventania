@@ -84,3 +84,16 @@
 [22:59:27] [User Authenticator #6/INFO]: UUID of player Roxha is a79413e7-1895-3207-9f1d-75ced1c5b24b
 [22:59:27] [Server thread/INFO]: Roxha joined the game
 [22:59:27] [Server thread/INFO]: Roxha[/177.92.49.7:10959] logged in with entity id 34332 at ([world]-243.39452774108173, 66.0, -258.2049828986719)
+[23:00:30] [Server thread/INFO]: Changed the block at -328, 73, 104
+[23:01:19] [Server thread/INFO]: Changed the block at -328, 64, 104
+[23:02:01] [Server thread/INFO]: Invalid integer '-347.364'
+[23:02:01] [Server thread/INFO]: setblock -347.364 64 -179.856 spawner{SpawnData:{entity:{id:iron_golem,PersistenceRequired:1}},SpawnCount:2,MaxNearbyEntities:100,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:2,RequiredPlayerRange:10000} replace<--[HERE]
+[23:02:17] [Server thread/INFO]: Invalid integer '-347.364'
+[23:02:17] [Server thread/INFO]: setblock -347.364 ~1 -179.856 spawner{SpawnData:{entity:{id:iron_golem,PersistenceRequired:1}},SpawnCount:2,MaxNearbyEntities:100,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:2,RequiredPlayerRange:10000} replace<--[HERE]
+[23:02:40] [Server thread/INFO]: Invalid integer '-347.364'
+[23:02:40] [Server thread/INFO]: setblock -347.364 ~1 -179.856 spawner{SpawnData:{entity:{id:iron_golem,PersistenceRequired:1}},SpawnCount:2,MaxNearbyEntities:100,Delay:1,MinSpawnDelay:1,MaxSpawnDelay:2,RequiredPlayerRange:10000}<--[HERE]
+[23:03:46] [Server thread/INFO]: Changed the block at -327, 65, -199
+[23:05:54] [Server thread/INFO]: Gave 1 [Spawner] to Medunax
+[23:07:58] [Server thread/INFO]: Changed the block at -345, 63, -146
+[23:09:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Medunax> marlon
+[23:09:46] [Async Chat Thread - #0/INFO]: [Not Secure] <Medunax> ei
