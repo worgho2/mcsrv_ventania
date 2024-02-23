@@ -3057,3 +3057,26 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.8.9.jar:?]
 	... 22 more
+[23:40:16] [Async Chat Thread - #8/INFO]: [Not Secure] <Medunax> ta a onde ?
+[23:40:22] [Server thread/INFO]: Gave 1 [Netherite Pickaxe] to Medunax
+[23:40:25] [Server thread/INFO]: Medunax has made the advancement [Enchanter]
+[23:40:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Roxha> to fazendo uma torre
+[23:41:11] [Async Chat Thread - #8/INFO]: [Not Secure] <Roxha> mais pro lado dos pedrelhos
+[23:41:32] [Async Chat Thread - #8/INFO]: [Not Secure] <Medunax> péga aqui
+[23:41:33] [Server thread/INFO]: Gave 1 [Netherite Shovel] to Medunax
+[23:42:03] [Async Chat Thread - #8/INFO]: [Not Secure] <Medunax> pecareta ta encantada no maximo
+[23:42:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Roxha> vlw
+[23:42:14] [Async Chat Thread - #8/INFO]: [Not Secure] <Medunax> olha a minha
+[23:42:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Roxha> top
+[23:42:52] [Async Chat Thread - #8/INFO]: [Not Secure] <Medunax> depois vamos no nether farma
+[23:43:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Roxha> blz
+[23:44:30] [Server thread/INFO]: Gave 1 [Netherite Axe] to Medunax
+[23:48:39] [Server thread/INFO]: Medunax was slain by Iron Golem
+[23:49:05] [Server thread/INFO]: Expected double
+[23:49:05] [Server thread/INFO]: ...on rabbit medunax minecraft:entity_born<--[HERE]
+[23:49:11] [Server thread/INFO]: Expected double
+[23:49:11] [Server thread/INFO]: ...on rabbit medunax minecraft:entity_born<--[HERE]
+[23:49:13] [Server thread/INFO]: Expected double
+[23:49:13] [Server thread/INFO]: ...on rabbit medunax minecraft:entity_born<--[HERE]
+[23:49:35] [Server thread/INFO]: Expected double
+[23:49:35] [Server thread/INFO]: ...on rabbit medunax ~ ~ ~ minecraft:entity_born<--[HERE]
