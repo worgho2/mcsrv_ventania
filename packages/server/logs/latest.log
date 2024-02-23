@@ -56,3 +56,8 @@
 [19:07:15] [Server thread/INFO]: Medunax[/200.140.236.67:3309] logged in with entity id 1 at ([world]-354.0217099050702, 65.0, -189.6727992434406)
 [19:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
 [19:28:05] [Server thread/INFO]: Medunax has made the advancement [Ice Bucket Challenge]
+[20:32:41] [Server thread/INFO]: Medunax lost connection: Disconnected
+[20:32:41] [Server thread/INFO]: Medunax left the game
+[20:35:43] [User Authenticator #2/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
+[20:35:43] [Server thread/INFO]: Medunax joined the game
+[20:35:43] [Server thread/INFO]: Medunax[/200.140.236.67:54076] logged in with entity id 18172 at ([world]-242.5687518777454, 79.0, -252.55708366928)
