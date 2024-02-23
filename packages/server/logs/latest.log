@@ -76,3 +76,11 @@
 [21:41:56] [Server thread/INFO]: Medunax[/200.140.236.67:54210] logged in with entity id 30134 at ([world]-307.4225316659235, 64.0, -136.85946054152285)
 [21:51:21] [Server thread/INFO]: Medunax lost connection: Disconnected
 [21:51:21] [Server thread/INFO]: Medunax left the game
+[22:52:44] [User Authenticator #5/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
+[22:52:44] [Server thread/INFO]: Medunax joined the game
+[22:52:44] [Server thread/INFO]: Medunax[/200.140.236.67:54311] logged in with entity id 32375 at ([world]-319.3171954515699, 64.0, -158.48026644512473)
+[22:53:22] [Server thread/INFO]: Medunax was slain by Enderman
+[22:56:15] [Server thread/INFO]: Gave 10 [Spawner] to Medunax
+[22:59:27] [User Authenticator #6/INFO]: UUID of player Roxha is a79413e7-1895-3207-9f1d-75ced1c5b24b
+[22:59:27] [Server thread/INFO]: Roxha joined the game
+[22:59:27] [Server thread/INFO]: Roxha[/177.92.49.7:10959] logged in with entity id 34332 at ([world]-243.39452774108173, 66.0, -258.2049828986719)
