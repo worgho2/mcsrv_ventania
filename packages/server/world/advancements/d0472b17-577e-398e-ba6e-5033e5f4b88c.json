@@ -694,7 +694,9 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2024-02-22 03:38:31 +0000"
+      "minecraft:sheep": "2024-02-23 19:30:57 +0000",
+      "minecraft:cow": "2024-02-22 03:38:31 +0000",
+      "minecraft:chicken": "2024-02-23 19:34:06 +0000"
     },
     "done": false
   },
@@ -875,6 +877,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2024-02-22 02:57:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-02-23 19:28:05 +0000"
     },
     "done": true
   },
@@ -1797,6 +1805,12 @@
   "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-02-22 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-02-23 19:28:05 +0000"
     },
     "done": true
   },
