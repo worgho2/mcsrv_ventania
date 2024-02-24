@@ -39,3 +39,5 @@
 [02:23:58] [Server thread/INFO]: Villager EntityVillager['Villager'/32751, uuid='f8d8cdcf-b6af-4c3e-b653-19876be8630b', l='ServerLevel[world]', x=-343.49, y=65.00, z=-213.11, cpos=[-22, -14], tl=279359, v=true] died, message: 'Villager was burnt to a crisp whilst fighting Medunax'
 [02:24:07] [Server thread/INFO]: Villager EntityVillager['Villager'/32994, uuid='ef7fe278-3bc9-4ae4-89cf-332ab7c741a2', l='ServerLevel[world]', x=-342.92, y=65.00, z=-216.52, cpos=[-22, -14], tl=282402, v=true] died, message: 'Villager was slain by Medunax'
 [03:12:11] [Server thread/INFO]: Medunax has made the advancement [Cover Me with Diamonds]
+[05:33:45] [Server thread/INFO]: Medunax lost connection: Disconnected
+[05:33:45] [Server thread/INFO]: Medunax left the game
