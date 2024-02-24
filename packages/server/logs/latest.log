@@ -28,3 +28,4 @@
 [00:42:45] [Server thread/INFO]: Roxha left the game
 [00:42:57] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/32995, uuid='6df08147-c729-47b1-b8d4-431c0332c353', l='ServerLevel[world]', x=-308.79, y=65.00, z=-203.49, cpos=[-20, -13], tl=161235, v=true] died, message: 'Leatherworker was burnt to a crisp whilst fighting Medunax'
 [00:47:23] [Server thread/INFO]: Villager EntityVillager['Villager'/32993, uuid='764ed6f0-7a3e-49d7-a844-b15c23d8b962', l='ServerLevel[world]', x=-347.91, y=65.00, z=-210.53, cpos=[-22, -14], tl=166500, v=true] died, message: 'Villager was slain by Medunax'
+[00:55:28] [Server thread/INFO]: Villager EntityVillager['Villager'/32945, uuid='82c4aea1-3fb9-40cd-b998-14b3475afdfa', l='ServerLevel[world]', x=-333.18, y=65.50, z=-190.99, cpos=[-21, -12], tl=176268, v=true] died, message: 'Villager was slain by Medunax'
