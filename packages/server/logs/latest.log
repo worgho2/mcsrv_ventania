@@ -54,3 +54,6 @@
 [16:03:29] [User Authenticator #11/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
 [16:03:29] [Server thread/INFO]: Medunax joined the game
 [16:03:29] [Server thread/INFO]: Medunax[/200.140.236.67:55132] logged in with entity id 1670759 at ([world]-333.3431285312, 64.0, -154.66811372731559)
+[16:46:34] [Server thread/WARN]: Medunax was kicked due to keepalive timeout!
+[16:46:34] [Server thread/INFO]: Medunax lost connection: Timed out
+[16:46:34] [Server thread/INFO]: Medunax left the game
