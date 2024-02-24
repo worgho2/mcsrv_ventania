@@ -17,3 +17,8 @@
 [00:16:56] [Server thread/INFO]: ...e medunax minecraft:spawn_egg 1<--[HERE]
 [00:17:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [00:19:01] [Server thread/INFO]: Gave 128 [Salmon Spawn Egg] to Medunax
+[00:35:33] [Server thread/INFO]: Villager EntityVillager['Villager'/32452, uuid='3ca304b5-7fe0-45b3-8db8-86be762471b4', l='ServerLevel[world]', x=-348.48, y=65.00, z=-196.06, cpos=[-22, -13], tl=152530, v=true] died, message: 'Villager was slain by Medunax using [Netherite Sword]'
+[00:35:33] [Server thread/INFO]: Villager EntityVillager['Villager'/32952, uuid='e1af202b-1335-43e4-a667-fd9a4cf6ca59', l='ServerLevel[world]', x=-348.95, y=65.00, z=-196.03, cpos=[-22, -13], tl=152602, v=true] died, message: 'Villager was slain by Medunax'
+[00:35:36] [Server thread/INFO]: Villager EntityVillager['Villager'/32954, uuid='61613cd3-557b-4e9e-acd5-cd7ad2cec576', l='ServerLevel[world]', x=-349.69, y=65.00, z=-191.91, cpos=[-22, -12], tl=152662, v=true] died, message: 'Villager was slain by Medunax'
+[00:35:37] [Server thread/INFO]: Villager EntityVillager['Villager'/32422, uuid='5f86029b-6c7e-48e3-97fb-f42015957faf', l='ServerLevel[world]', x=-347.70, y=65.00, z=-191.58, cpos=[-22, -12], tl=149404, v=true] died, message: 'Villager was slain by Medunax'
+[00:35:41] [Server thread/INFO]: Villager EntityVillager['Villager'/32752, uuid='cc74154a-e0ca-470c-80c7-3a8a39cff68d', l='ServerLevel[world]', x=-343.72, y=65.00, z=-191.64, cpos=[-22, -12], tl=149627, v=true] died, message: 'Villager was slain by Medunax'
