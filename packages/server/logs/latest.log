@@ -22,3 +22,9 @@
 [00:35:36] [Server thread/INFO]: Villager EntityVillager['Villager'/32954, uuid='61613cd3-557b-4e9e-acd5-cd7ad2cec576', l='ServerLevel[world]', x=-349.69, y=65.00, z=-191.91, cpos=[-22, -12], tl=152662, v=true] died, message: 'Villager was slain by Medunax'
 [00:35:37] [Server thread/INFO]: Villager EntityVillager['Villager'/32422, uuid='5f86029b-6c7e-48e3-97fb-f42015957faf', l='ServerLevel[world]', x=-347.70, y=65.00, z=-191.58, cpos=[-22, -12], tl=149404, v=true] died, message: 'Villager was slain by Medunax'
 [00:35:41] [Server thread/INFO]: Villager EntityVillager['Villager'/32752, uuid='cc74154a-e0ca-470c-80c7-3a8a39cff68d', l='ServerLevel[world]', x=-343.72, y=65.00, z=-191.64, cpos=[-22, -12], tl=149627, v=true] died, message: 'Villager was slain by Medunax'
+[00:42:22] [Async Chat Thread - #10/INFO]: [Not Secure] <Roxha> vo da uma saida aqui
+[00:42:28] [Async Chat Thread - #10/INFO]: [Not Secure] <Medunax> BLZZ
+[00:42:45] [Server thread/INFO]: Roxha lost connection: Disconnected
+[00:42:45] [Server thread/INFO]: Roxha left the game
+[00:42:57] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/32995, uuid='6df08147-c729-47b1-b8d4-431c0332c353', l='ServerLevel[world]', x=-308.79, y=65.00, z=-203.49, cpos=[-20, -13], tl=161235, v=true] died, message: 'Leatherworker was burnt to a crisp whilst fighting Medunax'
+[00:47:23] [Server thread/INFO]: Villager EntityVillager['Villager'/32993, uuid='764ed6f0-7a3e-49d7-a844-b15c23d8b962', l='ServerLevel[world]', x=-347.91, y=65.00, z=-210.53, cpos=[-22, -14], tl=166500, v=true] died, message: 'Villager was slain by Medunax'
