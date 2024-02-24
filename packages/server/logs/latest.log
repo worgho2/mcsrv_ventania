@@ -3080,3 +3080,12 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [23:49:13] [Server thread/INFO]: ...on rabbit medunax minecraft:entity_born<--[HERE]
 [23:49:35] [Server thread/INFO]: Expected double
 [23:49:35] [Server thread/INFO]: ...on rabbit medunax ~ ~ ~ minecraft:entity_born<--[HERE]
+[23:51:44] [Server thread/INFO]: Teleported Medunax to -176.000000, 122.000000, 162.000000
+[23:51:46] [Server thread/INFO]: Medunax fell from a high place
+[23:52:02] [Server thread/INFO]: Teleported Medunax to -176.000000, 82.000000, 162.000000
+[23:52:51] [Server thread/INFO]: Teleported Medunax to -291.500000, 65.000000, -126.500000
+[23:54:15] [Server thread/INFO]: That position is not loaded
+[23:55:00] [Server thread/INFO]: That position is not loaded
+[23:55:50] [Server thread/INFO]: Successfully filled 384 blocks
+[23:59:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[23:59:27] [Server thread/INFO]: Gave 2 [Netherite Sword] to Medunax
