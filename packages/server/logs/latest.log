@@ -51,3 +51,6 @@
 [13:13:54] [Server thread/INFO]: Roxha[/185.65.134.175:44862] logged in with entity id 1670337 at ([world]-244.31775980914895, 66.0, -257.0622888233605)
 [13:13:55] [Server thread/INFO]: Roxha lost connection: Disconnected
 [13:13:55] [Server thread/INFO]: Roxha left the game
+[16:03:29] [User Authenticator #11/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
+[16:03:29] [Server thread/INFO]: Medunax joined the game
+[16:03:29] [Server thread/INFO]: Medunax[/200.140.236.67:55132] logged in with entity id 1670759 at ([world]-333.3431285312, 64.0, -154.66811372731559)
