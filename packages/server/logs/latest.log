@@ -1,59 +1,57 @@
-[00:00:37] [Server thread/INFO]: Gave 2 [Netherite Axe] to Medunax
-[00:01:00] [Server thread/INFO]: Medunax has completed the challenge [Serious Dedication]
-[00:01:00] [Server thread/INFO]: Gave 2 [Netherite Hoe] to Medunax
-[00:01:19] [Server thread/INFO]: Gave 2 [Netherite Pickaxe] to Medunax
-[00:01:47] [Server thread/INFO]: Gave 2 [Netherite Shovel] to Medunax
-[00:02:42] [Server thread/INFO]: Medunax has made the advancement [Hidden in the Depths]
-[00:02:42] [Server thread/INFO]: Gave 10 [Ancient Debris] to Medunax
-[00:04:49] [Server thread/INFO]: Gave 1 [Netherite Chestplate] to Medunax
-[00:05:21] [Server thread/INFO]: Gave 1 [Netherite Helmet] to Medunax
-[00:05:44] [Server thread/INFO]: Gave 1 [Netherite Leggings] to Medunax
-[00:06:55] [Server thread/INFO]: Medunax has completed the challenge [Cover Me in Debris]
-[00:06:55] [Server thread/INFO]: Gave 1 [Netherite Boots] to Medunax
-[00:12:59] [Server thread/INFO]: Medunax fell out of the world
-[00:12:59] [Server thread/INFO]: Killed Medunax
-[00:14:50] [Server thread/INFO]: Gave 1 [Netherite Boots] to Medunax
-[00:16:56] [Server thread/INFO]: Unknown item 'minecraft:spawn_egg'
-[00:16:56] [Server thread/INFO]: ...e medunax minecraft:spawn_egg 1<--[HERE]
-[00:17:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:19:01] [Server thread/INFO]: Gave 128 [Salmon Spawn Egg] to Medunax
-[00:35:33] [Server thread/INFO]: Villager EntityVillager['Villager'/32452, uuid='3ca304b5-7fe0-45b3-8db8-86be762471b4', l='ServerLevel[world]', x=-348.48, y=65.00, z=-196.06, cpos=[-22, -13], tl=152530, v=true] died, message: 'Villager was slain by Medunax using [Netherite Sword]'
-[00:35:33] [Server thread/INFO]: Villager EntityVillager['Villager'/32952, uuid='e1af202b-1335-43e4-a667-fd9a4cf6ca59', l='ServerLevel[world]', x=-348.95, y=65.00, z=-196.03, cpos=[-22, -13], tl=152602, v=true] died, message: 'Villager was slain by Medunax'
-[00:35:36] [Server thread/INFO]: Villager EntityVillager['Villager'/32954, uuid='61613cd3-557b-4e9e-acd5-cd7ad2cec576', l='ServerLevel[world]', x=-349.69, y=65.00, z=-191.91, cpos=[-22, -12], tl=152662, v=true] died, message: 'Villager was slain by Medunax'
-[00:35:37] [Server thread/INFO]: Villager EntityVillager['Villager'/32422, uuid='5f86029b-6c7e-48e3-97fb-f42015957faf', l='ServerLevel[world]', x=-347.70, y=65.00, z=-191.58, cpos=[-22, -12], tl=149404, v=true] died, message: 'Villager was slain by Medunax'
-[00:35:41] [Server thread/INFO]: Villager EntityVillager['Villager'/32752, uuid='cc74154a-e0ca-470c-80c7-3a8a39cff68d', l='ServerLevel[world]', x=-343.72, y=65.00, z=-191.64, cpos=[-22, -12], tl=149627, v=true] died, message: 'Villager was slain by Medunax'
-[00:42:22] [Async Chat Thread - #10/INFO]: [Not Secure] <Roxha> vo da uma saida aqui
-[00:42:28] [Async Chat Thread - #10/INFO]: [Not Secure] <Medunax> BLZZ
-[00:42:45] [Server thread/INFO]: Roxha lost connection: Disconnected
-[00:42:45] [Server thread/INFO]: Roxha left the game
-[00:42:57] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/32995, uuid='6df08147-c729-47b1-b8d4-431c0332c353', l='ServerLevel[world]', x=-308.79, y=65.00, z=-203.49, cpos=[-20, -13], tl=161235, v=true] died, message: 'Leatherworker was burnt to a crisp whilst fighting Medunax'
-[00:47:23] [Server thread/INFO]: Villager EntityVillager['Villager'/32993, uuid='764ed6f0-7a3e-49d7-a844-b15c23d8b962', l='ServerLevel[world]', x=-347.91, y=65.00, z=-210.53, cpos=[-22, -14], tl=166500, v=true] died, message: 'Villager was slain by Medunax'
-[00:55:28] [Server thread/INFO]: Villager EntityVillager['Villager'/32945, uuid='82c4aea1-3fb9-40cd-b998-14b3475afdfa', l='ServerLevel[world]', x=-333.18, y=65.50, z=-190.99, cpos=[-21, -12], tl=176268, v=true] died, message: 'Villager was slain by Medunax'
-[02:12:31] [Server thread/INFO]: Villager EntityVillager['Villager'/32401, uuid='11e5a209-6291-4fa1-b5db-5f864b06d70b', l='ServerLevel[world]', x=-341.78, y=65.00, z=-221.91, cpos=[-22, -14], tl=268588, v=true] died, message: 'Villager was slain by Medunax'
-[02:12:31] [Server thread/INFO]: Villager EntityVillager['Villager'/32753, uuid='6e65f00b-0260-4324-a3e7-cf87c16bd67d', l='ServerLevel[world]', x=-341.17, y=65.00, z=-222.11, cpos=[-22, -14], tl=268763, v=true] died, message: 'Villager was slain by Medunax'
-[02:14:40] [Server thread/INFO]: Villager EntityVillager['Villager'/32947, uuid='954a09fb-07ba-4531-985c-4b0b3d061291', l='ServerLevel[world]', x=-350.22, y=65.00, z=-194.18, cpos=[-22, -13], tl=271001, v=true] died, message: 'Villager was slain by Medunax'
-[02:14:53] [Server thread/INFO]: Villager EntityVillager['Villager'/32992, uuid='cb9fa992-4ca7-4d24-9691-5ccbb712fcd7', l='ServerLevel[world]', x=-349.27, y=65.00, z=-208.04, cpos=[-22, -14], tl=271623, v=true] died, message: 'Villager was slain by Medunax'
-[02:15:31] [Server thread/INFO]: Villager EntityVillager['Villager'/32424, uuid='74fdb14d-616f-4ba1-bc43-2f31c7f375f3', l='ServerLevel[world]', x=-334.46, y=65.00, z=-204.05, cpos=[-21, -13], tl=272085, v=true] died, message: 'Villager was slain by Medunax'
-[02:16:59] [Server thread/INFO]: Villager EntityVillager['Farmer'/121151, uuid='5633e7c2-89d5-4e86-adc4-658a4fa6400e', l='ServerLevel[world]', x=-349.56, y=65.00, z=-213.15, cpos=[-22, -14], tl=210587, v=true] died, message: 'Farmer was slain by Medunax'
-[02:23:27] [Server thread/INFO]: Villager EntityVillager['Villager'/32400, uuid='f8bc614a-870d-4093-8bc2-717a10ca083d', l='ServerLevel[world]', x=-350.95, y=65.50, z=-215.69, cpos=[-22, -14], tl=282062, v=true] died, message: 'Villager was slain by Medunax using [Netherite Pickaxe]'
-[02:23:58] [Server thread/INFO]: Villager EntityVillager['Villager'/32751, uuid='f8d8cdcf-b6af-4c3e-b653-19876be8630b', l='ServerLevel[world]', x=-343.49, y=65.00, z=-213.11, cpos=[-22, -14], tl=279359, v=true] died, message: 'Villager was burnt to a crisp whilst fighting Medunax'
-[02:24:07] [Server thread/INFO]: Villager EntityVillager['Villager'/32994, uuid='ef7fe278-3bc9-4ae4-89cf-332ab7c741a2', l='ServerLevel[world]', x=-342.92, y=65.00, z=-216.52, cpos=[-22, -14], tl=282402, v=true] died, message: 'Villager was slain by Medunax'
-[03:12:11] [Server thread/INFO]: Medunax has made the advancement [Cover Me with Diamonds]
-[05:33:45] [Server thread/INFO]: Medunax lost connection: Disconnected
-[05:33:45] [Server thread/INFO]: Medunax left the game
-[13:13:20] [User Authenticator #10/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
-[13:13:21] [Server thread/INFO]: Medunax joined the game
-[13:13:21] [Server thread/INFO]: Medunax[/185.65.134.175:51266] logged in with entity id 1669613 at ([world]-333.3431285312, 64.0, -154.66811372731559)
-[13:13:22] [Server thread/INFO]: Medunax lost connection: Disconnected
-[13:13:22] [Server thread/INFO]: Medunax left the game
-[13:13:54] [User Authenticator #10/INFO]: UUID of player Roxha is a79413e7-1895-3207-9f1d-75ced1c5b24b
-[13:13:54] [Server thread/INFO]: Roxha joined the game
-[13:13:54] [Server thread/INFO]: Roxha[/185.65.134.175:44862] logged in with entity id 1670337 at ([world]-244.31775980914895, 66.0, -257.0622888233605)
-[13:13:55] [Server thread/INFO]: Roxha lost connection: Disconnected
-[13:13:55] [Server thread/INFO]: Roxha left the game
-[16:03:29] [User Authenticator #11/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
-[16:03:29] [Server thread/INFO]: Medunax joined the game
-[16:03:29] [Server thread/INFO]: Medunax[/200.140.236.67:55132] logged in with entity id 1670759 at ([world]-333.3431285312, 64.0, -154.66811372731559)
-[16:46:34] [Server thread/WARN]: Medunax was kicked due to keepalive timeout!
-[16:46:34] [Server thread/INFO]: Medunax lost connection: Timed out
-[16:46:34] [Server thread/INFO]: Medunax left the game
+[20:33:40] [ServerMain/INFO]: Building unoptimized datafixer
+[20:33:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:33:49] [ServerMain/INFO]: Loaded 7 recipes
+[20:33:53] [Server thread/INFO]: Starting minecraft server version 1.19.1
+[20:33:53] [Server thread/INFO]: Loading properties
+[20:33:53] [Server thread/INFO]: This server is running Paper version git-Paper-111 (MC: 1.19.1) (Implementing API version 1.19.1-R0.1-SNAPSHOT) (Git: 02831e3)
+[20:33:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:33:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:33:54] [Server thread/INFO]: Default game type: SURVIVAL
+[20:33:54] [Server thread/INFO]: Generating keypair
+[20:33:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:33:55] [Server thread/INFO]: Using epoll channel type
+[20:33:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:33:55] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[20:33:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:33:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:33:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:33:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:33:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:33:55] [Server thread/INFO]: Preparing level "world"
+[20:34:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:19] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:20] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:20] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:21] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:21] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:22] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:22] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:23] [Server thread/INFO]: Time elapsed: 5950 ms
+[20:34:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:34:23] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:23] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:24] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:24] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:25] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:25] [Server thread/INFO]: Time elapsed: 2494 ms
+[20:34:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:34:26] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:26] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:26] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:34:28] [Server thread/INFO]: Time elapsed: 2495 ms
+[20:34:28] [Server thread/INFO]: Running delayed init tasks
+[20:34:28] [Server thread/INFO]: Done (34.656s)! For help, type "help"
+[20:34:28] [Server thread/INFO]: Timings Reset
+[20:34:53] [User Authenticator #1/INFO]: UUID of player Medunax is d0472b17-577e-398e-ba6e-5033e5f4b88c
+[20:34:54] [Server thread/INFO]: Medunax joined the game
+[20:34:54] [Server thread/INFO]: Medunax[/200.140.236.67:13289] logged in with entity id 176 at ([world]-315.7094210900598, 64.0, -172.06199819852705)
+[20:35:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[20:50:10] [Server thread/INFO]: Villager EntityVillager['Villager'/255, uuid='46a01e9d-99fd-4c48-b7c6-f5205c3df1f9', l='ServerLevel[world]', x=-333.69, y=59.30, z=-158.30, cpos=[-21, -10], tl=114890, v=true] died, message: 'Villager was slain by Zombie'
+[20:50:31] [Server thread/INFO]: Villager EntityVillager['Villager'/257, uuid='58c0f1fb-a4e6-44bc-b899-cad747b448d0', l='ServerLevel[world]', x=-337.11, y=58.93, z=-158.34, cpos=[-22, -10], tl=485727, v=true] died, message: 'Villager was slain by Zombie'
