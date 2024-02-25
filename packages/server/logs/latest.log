@@ -56,3 +56,6 @@
 [20:50:10] [Server thread/INFO]: Villager EntityVillager['Villager'/255, uuid='46a01e9d-99fd-4c48-b7c6-f5205c3df1f9', l='ServerLevel[world]', x=-333.69, y=59.30, z=-158.30, cpos=[-21, -10], tl=114890, v=true] died, message: 'Villager was slain by Zombie'
 [20:50:31] [Server thread/INFO]: Villager EntityVillager['Villager'/257, uuid='58c0f1fb-a4e6-44bc-b899-cad747b448d0', l='ServerLevel[world]', x=-337.11, y=58.93, z=-158.34, cpos=[-22, -10], tl=485727, v=true] died, message: 'Villager was slain by Zombie'
 [22:08:21] [Server thread/INFO]: Medunax fell from a high place
+[22:13:38] [Server thread/INFO]: Medunax fell from a high place
+[22:16:11] [Server thread/INFO]: Medunax lost connection: Disconnected
+[22:16:11] [Server thread/INFO]: Medunax left the game
