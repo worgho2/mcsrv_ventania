@@ -57,3 +57,7 @@
 [23:13:58] [Server thread/INFO]: Villager EntityVillager['Villager'/370, uuid='fbb14509-7707-4ba0-9e55-6420e0ada879', l='ServerLevel[world]', x=-332.59, y=64.00, z=-157.23, cpos=[-21, -10], tl=207212, v=true] died, message: 'Villager was slain by Luccabezerro'
 [23:19:38] [Server thread/INFO]: Gave 5000 [Oak Sapling] to Luccabezerro
 [23:19:45] [Server thread/INFO]: Luccabezerro has made the advancement [The Parrots and the Bats]
+[23:35:49] [User Authenticator #2/INFO]: UUID of player worgho2 is 7d35a7d2-a4bb-3a92-8d30-e8074a24b6cb
+[23:35:49] [Server thread/INFO]: worgho2 joined the game
+[23:35:50] [Server thread/INFO]: worgho2[/191.177.194.144:10011] logged in with entity id 102690 at ([world]-309.9817398451597, 64.0, -160.13736598349942)
+[23:39:48] [Server thread/INFO]: Teleported 2 entities to 0.500000, 64.000000, 0.500000
