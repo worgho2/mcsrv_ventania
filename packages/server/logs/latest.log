@@ -61,3 +61,56 @@
 [23:35:49] [Server thread/INFO]: worgho2 joined the game
 [23:35:50] [Server thread/INFO]: worgho2[/191.177.194.144:10011] logged in with entity id 102690 at ([world]-309.9817398451597, 64.0, -160.13736598349942)
 [23:39:48] [Server thread/INFO]: Teleported 2 entities to 0.500000, 64.000000, 0.500000
+[23:43:08] [Server thread/INFO]: Teleported 2 entities to 2500.500000, 64.000000, 5000.500000
+[23:43:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7972ms or 159 ticks behind
+[23:43:23] [Server thread/INFO]: Luccabezerro lost connection: Disconnected
+[23:43:23] [Server thread/INFO]: Luccabezerro left the game
+[23:43:27] [Server thread/INFO]: worgho2 suffocated in a wall
+[23:43:27] [Server thread/INFO]: Teleported worgho2 to 0.500000, 64.000000, 0.500000
+[23:44:05] [User Authenticator #3/INFO]: UUID of player Luccabezerro is 87601355-5cd9-3110-a24b-c89a6d5de273
+[23:44:06] [Server thread/INFO]: Luccabezerro joined the game
+[23:44:06] [Server thread/INFO]: Luccabezerro[/201.159.185.87:42571] logged in with entity id 136657 at ([world]2500.5, 64.0, 5000.5)
+[23:44:10] [Server thread/INFO]: Luccabezerro lost connection: Disconnected
+[23:44:10] [Server thread/INFO]: Luccabezerro left the game
+[23:44:14] [Server thread/INFO]: Teleported worgho2 to 0.500000, 64.000000, 0.500000
+[23:44:26] [User Authenticator #3/INFO]: UUID of player Luccabezerro is 87601355-5cd9-3110-a24b-c89a6d5de273
+[23:44:26] [Server thread/INFO]: Luccabezerro joined the game
+[23:44:26] [Server thread/INFO]: Luccabezerro[/201.159.185.87:42725] logged in with entity id 138286 at ([world]2500.5086940219744, 64.0, 5000.699999988079)
+[23:44:28] [Server thread/INFO]: Teleported 2 entities to 0.500000, 64.000000, 0.500000
+[23:45:06] [Server thread/INFO]: Unknown item 'minecraft:boat'
+[23:45:06] [Server thread/INFO]: give @a boat 1<--[HERE]
+[23:45:51] [Server thread/INFO]: Gave 1 [Oak Boat] to 2
+[23:46:18] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.5643525328393046
+[23:46:18] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.4775209068177766
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.37435672575955437
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.7672378494054612
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.3731998204440856
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 1.1601437914106612
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.5787073529471343
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.3744292545365795
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.7857432411710761
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.37444879116245033
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.3744663741252623
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.4036685151222912
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.3744814909862271
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.37449580396588544
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.38986062407983013
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.3351964533615046
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.29982703875450056
+[23:46:58] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.267994566451506
+[23:46:58] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.3460849431356223
+[23:46:59] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.2964891034725099
+[23:46:59] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.36830278386321424
+[23:46:59] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.3438853763423708
+[23:47:47] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.47463571798670046
+[23:47:47] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.7712011259256428
+[23:47:48] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.6018078380714371
+[23:47:48] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.3231716181106492
+[23:48:00] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.4915127984919536
+[23:48:00] [Server thread/WARN]: Boat (vehicle of Luccabezerro) moved wrongly! 0.5179494406559684
+[23:48:01] [Server thread/WARN]: Boat (vehicle of worgho2) moved wrongly! 0.27357616004218244
+[23:57:59] [Server thread/INFO]: Luccabezerro lost connection: Disconnected
+[23:57:59] [Server thread/INFO]: Luccabezerro left the game
+[23:58:01] [User Authenticator #4/INFO]: UUID of player Luccabezerro is 87601355-5cd9-3110-a24b-c89a6d5de273
+[23:58:01] [Server thread/INFO]: Luccabezerro joined the game
+[23:58:01] [Server thread/INFO]: Luccabezerro[/201.159.185.87:42576] logged in with entity id 195973 at ([world]-111.69999998807907, 50.0, -587.5574791045282)

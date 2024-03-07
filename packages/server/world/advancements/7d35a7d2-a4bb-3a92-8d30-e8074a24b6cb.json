@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-03-06 23:46:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2023-11-04 02:16:50 +0000"
@@ -644,6 +650,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-11-04 01:05:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-03-06 23:46:31 +0000"
     },
     "done": true
   },
@@ -950,15 +962,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_boots_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2023-11-16 04:28:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-11-16 03:03:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-16 04:28:30 +0000"
     },
     "done": true
   },
@@ -1554,8 +1566,10 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2023-11-11 09:19:47 +0000",
       "minecraft:taiga": "2023-11-11 09:08:00 +0000",
+      "minecraft:deep_ocean": "2024-03-06 23:47:25 +0000",
       "minecraft:frozen_river": "2023-11-11 09:33:58 +0000",
       "minecraft:birch_forest": "2023-11-11 08:40:33 +0000",
+      "minecraft:windswept_hills": "2024-03-06 23:52:12 +0000",
       "minecraft:beach": "2023-11-04 01:08:30 +0000",
       "minecraft:mangrove_swamp": "2023-11-11 08:37:02 +0000",
       "minecraft:river": "2023-11-04 01:28:28 +0000",
@@ -1565,11 +1579,13 @@
       "minecraft:swamp": "2023-11-11 08:29:00 +0000",
       "minecraft:cold_ocean": "2023-11-11 09:06:17 +0000",
       "minecraft:forest": "2023-11-04 01:50:04 +0000",
+      "minecraft:deep_cold_ocean": "2024-03-06 23:39:48 +0000",
       "minecraft:windswept_forest": "2023-11-11 08:40:15 +0000",
       "minecraft:jungle": "2023-11-11 08:37:16 +0000",
       "minecraft:ocean": "2023-11-11 08:54:55 +0000",
       "minecraft:snowy_beach": "2023-11-14 04:54:54 +0000",
       "minecraft:windswept_savanna": "2023-11-11 08:41:45 +0000",
+      "minecraft:flower_forest": "2024-03-06 23:52:01 +0000",
       "minecraft:old_growth_birch_forest": "2023-11-11 08:41:41 +0000",
       "minecraft:plains": "2023-11-04 01:02:39 +0000"
     },
@@ -1734,6 +1750,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_white_dye": "2023-11-11 10:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-03-06 23:46:31 +0000"
     },
     "done": true
   },
