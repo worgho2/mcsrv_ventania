@@ -44,3 +44,14 @@
 [01:08:21] [Server thread/INFO]: Applied effect Fire Resistance to Luccabezerro
 [01:09:28] [Server thread/WARN]: Luccabezerro moved wrongly!
 [01:09:29] [Server thread/WARN]: Luccabezerro moved wrongly!
+[01:10:07] [Server thread/INFO]: Invalid boolean, expected 'true' or 'false' but found 'truec'
+[01:10:07] [Server thread/INFO]: ...e 3600 56 truec<--[HERE]
+[01:10:18] [Server thread/INFO]: Teleported Luccabezerro to worgho2
+[01:12:07] [Server thread/INFO]: Luccabezerro has made the advancement [Those Were the Days]
+[01:12:50] [Server thread/WARN]: Luccabezerro moved wrongly!
+[01:12:56] [Server thread/INFO]: Teleported worgho2 to Luccabezerro
+[01:13:15] [Server thread/INFO]: Luccabezerro has completed the challenge [Return to Sender]
+[01:13:40] [Server thread/INFO]: worgho2 has completed the challenge [Return to Sender]
+[01:13:46] [Server thread/INFO]: Luccabezerro has made the advancement [Take Aim]
+[01:16:15] [Server thread/INFO]: worgho2 fell from a high place
+[01:17:55] [Server thread/INFO]: Teleported worgho2 to Luccabezerro

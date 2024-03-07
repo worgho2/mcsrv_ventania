@@ -587,6 +587,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-03-07 01:13:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2023-11-11 10:16:01 +0000"
@@ -795,6 +801,7 @@
     "criteria": {
       "minecraft:pillager": "2023-11-11 09:10:54 +0000",
       "minecraft:skeleton": "2023-11-04 01:28:02 +0000",
+      "minecraft:ghast": "2024-03-07 01:13:40 +0000",
       "minecraft:hoglin": "2023-11-08 02:20:43 +0000",
       "minecraft:magma_cube": "2023-11-11 12:14:15 +0000",
       "minecraft:spider": "2023-11-04 01:07:38 +0000",
