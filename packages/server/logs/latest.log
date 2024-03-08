@@ -4120,3 +4120,26 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.8.9.jar:?]
 	... 25 more
 [02:04:32] [Server thread/INFO]: Gave 1024 [Block of Quartz] to Luccabezerro
+[02:11:02] [Server thread/INFO]: Applied effect Speed to Luccabezerro
+[02:11:07] [Server thread/WARN]: Luccabezerro moved too quickly! 9.31606064498368,0.0,-4.190965955088643
+[02:11:08] [Server thread/WARN]: Luccabezerro moved too quickly! -12.152846098751525,0.0,4.682699344165968
+[02:11:10] [Server thread/WARN]: Luccabezerro moved too quickly! 5.554459929803272,0.0,11.779994982437358
+[02:11:19] [Server thread/WARN]: Luccabezerro moved too quickly! 10.104850893342473,0.41999998688697815,-1.814295872030641
+[02:12:22] [Server thread/INFO]: Applied effect Haste to Luccabezerro
+[02:13:40] [Server thread/INFO]: Applied effect Luck to Luccabezerro
+[02:13:49] [Server thread/INFO]: Luccabezerro lost connection: Disconnected
+[02:13:49] [Server thread/INFO]: Luccabezerro left the game
+[02:14:43] [User Authenticator #2/INFO]: UUID of player Luccabezerro is 87601355-5cd9-3110-a24b-c89a6d5de273
+[02:14:43] [Server thread/INFO]: Luccabezerro joined the game
+[02:14:43] [Server thread/INFO]: Luccabezerro[/201.159.185.87:42905] logged in with entity id 23280 at ([world]-330.4991648086555, 42.0, -247.69999998807907)
+[02:14:47] [Server thread/INFO]: Teleported Luccabezerro to -325.500000, 60.000000, -244.500000
+[02:14:51] [Server thread/INFO]: Teleported Luccabezerro to -325.500000, 60.000000, -244.500000
+[02:14:54] [Server thread/INFO]: Luccabezerro lost connection: Disconnected
+[02:14:54] [Server thread/INFO]: Luccabezerro left the game
+[02:15:19] [User Authenticator #2/INFO]: UUID of player Luccabezerro is 87601355-5cd9-3110-a24b-c89a6d5de273
+[02:15:19] [Server thread/INFO]: Luccabezerro joined the game
+[02:15:19] [Server thread/INFO]: Luccabezerro[/201.159.185.87:42713] logged in with entity id 24202 at ([world]-325.5, 60.0, -244.5)
+[02:15:23] [Server thread/INFO]: Teleported Luccabezerro to 0.500000, 65.000000, 0.500000
+[02:16:28] [Server thread/INFO]: Applied effect Conduit Power to Luccabezerro
+[02:17:40] [Server thread/INFO]: Applied effect Night Vision to Luccabezerro
+[02:19:02] [Server thread/INFO]: Applied effect Regeneration to Luccabezerro
