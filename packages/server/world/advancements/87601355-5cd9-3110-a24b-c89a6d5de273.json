@@ -768,15 +768,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-03-07 00:49:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-03-07 00:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 00:49:48 +0000"
     },
     "done": true
   },
@@ -1290,15 +1290,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2024-03-07 00:48:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2024-03-07 00:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-03-07 00:48:32 +0000"
     },
     "done": true
   },
