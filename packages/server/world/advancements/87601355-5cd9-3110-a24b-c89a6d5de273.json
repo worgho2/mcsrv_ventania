@@ -309,6 +309,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-03-08 01:39:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2023-11-26 05:30:42 +0000"
@@ -763,6 +769,7 @@
     "criteria": {
       "minecraft:skeleton": "2023-11-26 05:54:47 +0000",
       "minecraft:ghast": "2024-03-07 01:13:15 +0000",
+      "minecraft:magma_cube": "2024-03-08 01:41:52 +0000",
       "minecraft:piglin": "2024-03-07 01:15:46 +0000",
       "minecraft:zombie": "2024-03-06 23:48:22 +0000"
     },
@@ -867,6 +874,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2024-03-07 00:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-03-08 01:39:39 +0000"
     },
     "done": true
   },
@@ -1530,12 +1543,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-03-08 01:37:51 +0000",
       "minecraft:nether_wastes": "2024-03-07 00:48:00 +0000",
       "minecraft:soul_sand_valley": "2024-03-07 01:12:07 +0000",
       "minecraft:basalt_deltas": "2024-03-07 00:52:58 +0000",
       "minecraft:warped_forest": "2024-03-07 00:52:43 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
