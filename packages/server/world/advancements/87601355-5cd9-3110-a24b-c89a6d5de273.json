@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2023-11-26 05:37:26 +0000"
@@ -299,7 +305,8 @@
       "chicken": "2023-11-26 05:23:56 +0000",
       "beef": "2023-11-26 05:27:46 +0000",
       "porkchop": "2024-03-06 23:15:21 +0000",
-      "bread": "2023-11-26 05:33:14 +0000"
+      "bread": "2023-11-26 05:33:14 +0000",
+      "cooked_chicken": "2024-03-08 01:49:55 +0000"
     },
     "done": false
   },
@@ -354,6 +361,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2023-11-26 05:30:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
@@ -693,6 +706,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2023-11-26 05:22:08 +0000"
@@ -770,6 +789,7 @@
       "minecraft:skeleton": "2023-11-26 05:54:47 +0000",
       "minecraft:ghast": "2024-03-07 01:13:15 +0000",
       "minecraft:magma_cube": "2024-03-08 01:41:52 +0000",
+      "minecraft:phantom": "2024-03-08 01:51:32 +0000",
       "minecraft:piglin": "2024-03-07 01:15:46 +0000",
       "minecraft:zombie": "2024-03-06 23:48:22 +0000"
     },
@@ -790,6 +810,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2023-11-26 06:00:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-03-08 01:51:43 +0000"
     },
     "done": true
   },
@@ -850,6 +876,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-11-26 05:45:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
@@ -922,6 +954,12 @@
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2023-11-26 05:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
@@ -1030,6 +1068,12 @@
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2024-03-07 00:37:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
@@ -1171,6 +1215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-03-08 01:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-11-26 05:45:00 +0000"
@@ -1189,9 +1239,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-08 01:56:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2024-03-06 23:41:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
@@ -1463,6 +1525,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2023-11-26 05:30:42 +0000"
@@ -1526,6 +1594,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-03-06 23:19:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-08 01:52:06 +0000"
     },
     "done": true
   },
