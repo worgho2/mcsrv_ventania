@@ -671,6 +671,7 @@
       "minecraft:spider": "2024-02-22 12:28:04 +0000",
       "minecraft:creeper": "2024-02-22 02:59:38 +0000",
       "minecraft:phantom": "2024-02-22 11:16:56 +0000",
+      "minecraft:zombified_piglin": "2024-05-14 12:08:08 +0000",
       "minecraft:witch": "2024-02-23 21:03:57 +0000",
       "minecraft:zombie": "2024-02-22 04:13:02 +0000"
     },
@@ -2850,6 +2851,12 @@
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2024-02-24 03:34:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-05-14 12:06:46 +0000"
     },
     "done": true
   },
