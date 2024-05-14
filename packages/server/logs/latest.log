@@ -76,3 +76,14 @@
 [12:25:23] [Server thread/INFO]: ...e medunax wood 1024<--[HERE]
 [12:25:39] [Server thread/INFO]: Gave 1024 [Oak Wood] to Medunax
 [12:30:57] [Server thread/INFO]: Set the time to 1000
+[12:40:33] [Server thread/INFO]: Unknown item 'minecraft:stained_glass'
+[12:40:33] [Server thread/INFO]: ...e medunax stained_glass 64<--[HERE]
+[12:40:54] [Server thread/INFO]: Gave 64 [White Stained Glass] to Medunax
+[12:41:19] [Server thread/INFO]: Gave 1064 [White Stained Glass] to Medunax
+[12:44:19] [Server thread/INFO]: Gave 1024 [Glowstone] to Medunax
+[12:45:00] [Server thread/INFO]: Gave 64 [Minecart with Hopper] to Medunax
+[12:45:48] [Server thread/INFO]: Gave 64 [Chest] to Medunax
+[12:49:05] [Server thread/INFO]: Summoned new Farmer
+[12:49:14] [Server thread/INFO]: Expected double
+[12:49:14] [Server thread/INFO]: ... villager medunax {VillagerData:{profession:farmer,level:5,type:plains},PersistenceRequired:1}<--[HERE]
+[12:49:47] [Server thread/INFO]: Gave 128 [Villager Spawn Egg] to Medunax
