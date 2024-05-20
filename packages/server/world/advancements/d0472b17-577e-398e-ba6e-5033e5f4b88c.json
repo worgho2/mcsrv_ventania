@@ -563,6 +563,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-05-20 14:02:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-02-22 03:16:00 +0000"
@@ -1957,6 +1963,7 @@
       "baked_potato": "2024-05-16 11:01:26 +0000",
       "apple": "2024-02-22 19:53:43 +0000",
       "beetroot": "2024-05-15 11:56:41 +0000",
+      "golden_carrot": "2024-05-20 13:55:17 +0000",
       "cooked_chicken": "2024-02-22 12:20:05 +0000"
     },
     "done": false
