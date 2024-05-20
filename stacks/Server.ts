@@ -64,7 +64,7 @@ export const Server = ({ stack }: sst.StackContext) => {
             /**
              * Setup git repository
              */
-            `git clone ${GITHUB_PAT_URL} ${repositoryPath}`,
+            `git clone --depth=1 ${GITHUB_PAT_URL} ${repositoryPath}`,
             `chown -R ec2-user:ec2-user ${repositoryPath}`,
 
             /**
