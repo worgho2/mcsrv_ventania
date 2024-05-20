@@ -74,3 +74,4 @@
 [14:20:33] [Server thread/INFO]: Gave 64 [Redstone Dust] to Medunax
 [14:21:21] [Server thread/INFO]: No player was found
 [14:22:08] [Server thread/INFO]: Gave 64 [Observer] to Medunax
+[14:31:22] [Server thread/INFO]: Villager EntityVillager['Fletcher'/10030, uuid='e6e38973-0ff8-47d3-b415-7d37f5b96d2d', l='ServerLevel[world]', x=-295.64, y=61.91, z=-119.90, cpos=[-19, -8], tl=43043, v=true] died, message: 'Fletcher tried to swim in lava to escape Medunax'
