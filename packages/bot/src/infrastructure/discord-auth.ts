@@ -21,7 +21,7 @@ export class DiscordAuth extends Auth {
         const userRoleMap: Record<string, keyof typeof Role> = {
             '426503936501874707': 'OWNER',
             '318259216429219841': 'ADMIN',
-            '440774318176206848': 'ADMIN',
+            '440774318176206848': 'OWNER',
         };
 
         return {
