@@ -425,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-05-21 22:47:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2024-02-22 13:41:35 +0000"
@@ -1350,6 +1356,7 @@
       "minecraft:river": "2024-02-22 02:25:47 +0000",
       "minecraft:cold_ocean": "2024-02-24 01:48:27 +0000",
       "minecraft:forest": "2024-02-22 02:33:55 +0000",
+      "minecraft:deep_cold_ocean": "2024-05-21 22:40:03 +0000",
       "minecraft:plains": "2024-02-22 02:24:17 +0000"
     },
     "done": false
