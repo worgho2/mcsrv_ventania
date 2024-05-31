@@ -150,3 +150,8 @@
 [06:47:29] [Server thread/INFO]: That position is not loaded
 [06:49:03] [Server thread/INFO]: That position is not loaded
 [06:49:53] [Server thread/INFO]: That position is not loaded
+[06:51:40] [Server thread/INFO]: That position is not loaded
+[06:51:56] [Server thread/INFO]: Set the time to 1000
+[06:53:00] [Server thread/INFO]: That position is not loaded
+[06:54:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[06:54:23] [Server thread/INFO]: Too many blocks in the specified area (maximum 32768, specified 30263400)
