@@ -155,3 +155,7 @@
 [06:53:00] [Server thread/INFO]: That position is not loaded
 [06:54:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [06:54:23] [Server thread/INFO]: Too many blocks in the specified area (maximum 32768, specified 30263400)
+[07:03:57] [Server thread/INFO]: worgho2 lost connection: Disconnected
+[07:03:57] [Server thread/INFO]: worgho2 left the game
+[07:04:06] [Server thread/INFO]: Medunax lost connection: Disconnected
+[07:04:06] [Server thread/INFO]: Medunax left the game
