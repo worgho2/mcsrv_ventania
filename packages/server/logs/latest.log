@@ -69,3 +69,11 @@
 [03:56:40] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
 [03:56:40] [Server thread/INFO]: ... minecraft:firework_rocket medunax 1000<--[HERE]
 [03:57:04] [Server thread/INFO]: Gave 1000 [Firework Rocket] to Medunax
+[04:05:09] [Server thread/INFO]: Gave 1 [Netherite Shovel] to worgho2
+[04:05:14] [Server thread/INFO]: Gave 1 [Netherite Shovel] to Medunax
+[04:05:33] [Server thread/INFO]: Teleported worgho2 to Medunax
+[04:09:44] [Server thread/INFO]: Set the time to 1000
+[04:11:19] [Server thread/INFO]: Gave 1 [Netherite Axe] to worgho2
+[04:11:24] [Server thread/INFO]: Gave 1 [Netherite Axe] to Medunax
+[04:19:50] [Server thread/INFO]: Set worgho2's game mode to Creative Mode
+[04:19:59] [Server thread/INFO]: Set the time to 0
