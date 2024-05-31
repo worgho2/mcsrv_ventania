@@ -1020,6 +1020,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-05-31 05:41:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2024-05-20 13:31:46 +0000"
